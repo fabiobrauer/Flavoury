@@ -12,6 +12,7 @@ import OurTeam from '../MenHomeTwo/OurTeam'
 import Reservation from '../MenHomeTwo/Reservation'
 import Blog from '../MenHomeTwo/Blog'
 import Aos from 'aos'
+import { Helmet } from "react-helmet-async";
 
 function Main() {
  
@@ -21,17 +22,18 @@ function Main() {
     }, []);
 
   return (
-    <>
+    <>        
+    <Header />
       <div className='index_wraper'>
       <section class="banner_section">
     <div className="container mt-5">
       
-{/*       <Helmet>
+      <Helmet>
         <title>Speisen am Hof</title>
         <link rel="canonical" href="/SpeisenAmHof" />
         <meta name="description" content="Süddeutsche Küche in Jesteburg, Restaurant Jesteburg" />
         <meta name="fragment" content="!" />
-      </Helmet> */}
+      </Helmet> 
       
 
       {/* Page Title */}
@@ -130,7 +132,7 @@ function Main() {
       </div>
     </div>
     </section>
-        <Header />
+
         <PopularDish />
         <Menulist />
         <VideoTwo />

@@ -461,7 +461,7 @@ header.fixed::before {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover {
-  color: var(--primary-red);
+  color: var(--text-white);
 }
 
 .navbar-expand-lg .navbar-nav .nav-item:hover .nav-link:not(.contact_number .nav-link):before {
