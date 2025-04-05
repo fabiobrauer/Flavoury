@@ -44,19 +44,9 @@ function WhoWe() {
                         <div className="icon">
                             <img src={Icon01} alt="img" />
                         </div>
-                        <span className="sub_text">Who we are</span>
+                        <span className="sub_text">Über unser Restaurant</span>
                         <h2>
-                            A restaurant with Timeless &amp; Traditional taste <br />{" "}
-                            <span className="heading_img">
-                                <img src={Icon02} alt="img" />
-                            </span>
-                            We Only Serve Real Steaks, <br />
-                            Authentic Tastes &amp; Authentic Atmosphere, <br />
-                            The steak you will always remember.{" "}
-                            <span className="heading_img">
-                                <img src={Icon03} alt="img" />
-                            </span>{" "}
-                            Let us <br /> change your life with our steaks.
+                        Ein erfahrenes Küchenteam rund um Frank Schiffner kocht täglich für Sie – ob die beliebten Klassiker der Hofküche oder innovative Kreationen mit mediterranen und japanischen Einflüssen von Axel Henkel.
                         </h2>
                     </div>
                 </div>
@@ -188,7 +178,7 @@ function WhoWe() {
                 </div>
                 <div className="text-center" data-aos="fade-in" data-aos-duration={1500}>
                     <Link to="/About" className="btn btn_primary">
-                        read our story
+                        Mehr über Uns
                     </Link>
                 </div>
             </div>

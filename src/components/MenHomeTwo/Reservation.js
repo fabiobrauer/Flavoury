@@ -11,8 +11,7 @@ function Reservation() {
                             <div className="text-center">
                                 <h2 className="mb-2">Online Reservation</h2>
                                 <p>
-                                    Booking request <Link to="tel:+88123123456">+88-123-123456</Link> or
-                                    fill out the order form
+                                    Rufen Sie an unter <Link to="tel:+494181 9199500">+494181 9199500</Link> oder Reservieren Sie Online
                                 </p>
                             </div>
                             <form>
@@ -63,31 +62,29 @@ function Reservation() {
                             </form>
                         </div>
                         <div className="contact_block">
-                            <h2>Contact Us</h2>
+                            <h2>Schreiben sie Uns</h2>
                             <div className="booking">
-                                <h3>Booking request</h3>
-                                <Link to="tel:+88-123-123456">+88-123-123456</Link>
+                                <h3>Tisch Buchen</h3>
+                                <Link to="tel:+494181 9199500">+494181 9199500</Link>
                             </div>
                             <ul>
                                 <li>
-                                    <h3>Location</h3>
-                                    <p>
-                                        Restaurant St, Delicious City, <br />
-                                        London 9578, UK
+                                    <h3>Standort</h3>
+                                    <p>Itzenbütteler Sod 13, 
+                                        <br />21266 Jesteburg
                                     </p>
                                 </li>
                                 <li>
-                                    <h3>Lunch Time</h3>
+                                    <h3>Öffnungszeiten</h3>
                                     <p>
-                                        Monday to Sunday <br />
-                                        11.00 am - 2.30pm
+                                        Mo - Fr warme Küche<br />
+                                        17.00 Uhr - 22.00 Uhr
                                     </p>
                                 </li>
                                 <li>
-                                    <h3>Dinner Time</h3>
                                     <p>
-                                        Monday to Sunday <br />
-                                        5.30 pm - 11.30 pm
+                                        Sa - So warme Küche<br />
+                                        12.00 pm - 22.00 pm
                                     </p>
                                 </li>
                             </ul>

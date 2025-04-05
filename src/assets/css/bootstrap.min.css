@@ -52,6 +52,7 @@
 }
 
 html {
+
     font-family: sans-serif;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
@@ -11515,5 +11516,25 @@ a.text-dark:hover {
         border-color: #dee2e6
     }
 }
+/* ------Speisen am Hof------ */
+.testom{
+    min-height: 700px !important;
+  }
+  .elfsight-app-69763e43-f806-42c2-a72a-c54e4892223f {
+    height: 700px !important;
+    min-height: 700px !important;
+    position: relative !important;
+    overflow: hidden !important;
+  }
+.Buffet{
+    color: var(--primary-red);
+}
+.list-buffet{
+    color: var(--dark);
+    font-size: large;
+}
+
+
+
 
 /*# sourceMappingURL=bootstrap.min.css.map */

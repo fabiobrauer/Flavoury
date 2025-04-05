@@ -1,8 +1,0 @@
-user-agent: *
-Allow: /
-Allow: /SpeisenAmHof
-Allow: /ÜbernachtenAmHof
-Allow: /Kontakt
-Allow: /ÖkologischeLandwirtschaft
-Allow: /ÜberUns
-Allow: /Reiten

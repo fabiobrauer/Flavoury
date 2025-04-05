@@ -28,32 +28,32 @@ function MenuSection() {
                 </div>
                 <div className="container">
                     <div className="section_title text-center" data-aos="fade-up" data-aos-duration={1500} >
-                        <span className="sub_text">Our menu</span>
-                        <h2>The best dishes</h2>
+                        <span className="sub_text">Erkunden Sie unser Menu</span>
+                        <h2>beliebtesten Speisen</h2>
                     </div>
                     <ul className="nav nav-tabs" id="myTab" role="tablist" data-aos="fade-up" data-aos-duration={1500} >
                         <li className="nav-item">
                             <Link className={`nav-link ${tabMenu.a && "active"}`}
                                 onClick={() => tabActive({ a: true })} id="starters-tab" data-toggle="tab" to="#starters" role="tab" aria-controls="starters" aria-selected="true" >
-                                starters
+                                Vorspeisen
                             </Link>
                         </li>
                         <li className="nav-item">
                             <Link className={`nav-link ${tabMenu.b && "active"}`}
                                 onClick={() => tabActive({ b: true })} id="steaks-tab" data-toggle="tab" to="#steaks" role="tab" aria-controls="steaks" aria-selected="false" >
-                                steaks
+                                Hauptgerichte
                             </Link>
                         </li>
                         <li className="nav-item">
                             <Link className={`nav-link ${tabMenu.c && "active"}`}
                                 onClick={() => tabActive({ c: true })} id="special-tab" data-toggle="tab" to="#special" role="tab" aria-controls="special" aria-selected="false" >
-                                special
+                                Dessert
                             </Link>
                         </li>
                         <li className="nav-item">
                             <Link className={`nav-link ${tabMenu.d && "active"}`}
                                 onClick={() => tabActive({ d: true })} id="deserts-tab" data-toggle="tab" to="#deserts" role="tab" aria-controls="deserts" aria-selected="false" >
-                                deserts
+                                Getränke
                             </Link>
                         </li>
                     </ul>
@@ -69,48 +69,43 @@ function MenuSection() {
                                                     <img src={Dish07} alt="img" />
                                                 </div>
                                                 <div className="dish_text">
-                                                    <h3>Tommy’s Margarita</h3>
+                                                    <h3>Vitello Tonato</h3>
                                                     <p>
-                                                        Tomatoes Beef, Eggs, poached Beef, Eggs, poached, with
-                                                        bacon, Bacon, chorizo, roasted roma{" "}
+                                                        rosagebratene Kalbsrückenscheiben auf Thunfisch-Kapern Sauce
                                                     </p>
-                                                    <span className="price">$18.00</span>
+                                                    <span className="price">€14.90</span>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-12">
                                         <div className="dish_box">
-                                            <span className="new">NEW</span>
                                             <div className="dish_info">
                                                 <div className="dish_img">
                                                     <img src={Dish08} alt="img" />
                                                 </div>
                                                 <div className="dish_text">
-                                                    <h3> Meat steak raw marbled</h3>
+                                                    <h3>Rinderkraftbrühe</h3>
                                                     <p>
-                                                        Shad angler arapaima pencilsmelt. Eggs, poached, with
-                                                        Galjoen fish Australian lungfish sea, bacon.{" "}
+                                                        mit Pfannkuchenstreifen und Lauchzwiebeln 
                                                     </p>
-                                                    <span className="price">$22.00</span>
+                                                    <span className="price">€7.90</span>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-12">
                                         <div className="dish_box">
-                                            <span className="new">NEW</span>
                                             <div className="dish_info">
                                                 <div className="dish_img">
                                                     <img src={Dish09} alt="img" />
                                                 </div>
                                                 <div className="dish_text">
-                                                    <h3>Beef steak grill pan</h3>
+                                                    <h3>Getrüffeltes Rote beete Carpaccio</h3>
                                                     <p>
-                                                        Roasted roma tomatoes mushrooms &amp; spinach Beef, Eggs,
-                                                        poached, fried, with bacon, chorizo.
+                                                        mit Rucola, gehobeltem Parmesan und Pinienkerne
                                                     </p>
-                                                    <span className="price">$16.00</span>
+                                                    <span className="price">€14.90</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -122,12 +117,11 @@ function MenuSection() {
                                                     <img src={Dish04} alt="img" />
                                                 </div>
                                                 <div className="dish_text">
-                                                    <h3>raw marbled meat steak</h3>
+                                                    <h3>Thunfischsashimi</h3>
                                                     <p>
-                                                        Shad angler arapaima pencilsmelt. Eggs, poached, fried,
-                                                        with bacon. chorizo, roasted roma tomatoes.
+                                                        angebraten mit Wasabi, Sojasauce und Wakami-Sesam-AlgenSalat
                                                     </p>
-                                                    <span className="price">$25.00</span>
+                                                    <span className="price">€14.50</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -139,12 +133,12 @@ function MenuSection() {
                                                     <img src={Dish05} alt="img" />
                                                 </div>
                                                 <div className="dish_text">
-                                                    <h3>Prickly Pear Tonic</h3>
+                                                    <h3>Lachssashimi im Noriblatt</h3>
                                                     <p>
-                                                        Galjoen fish Australian lungfish sea, Shad angler arapaima
-                                                        pencilsmelt. Eggs, poached, with bacon.
+                                                        gebacken im Tempuramantel, Sesamecreme und eingelegtem
+                                                        Ingwer
                                                     </p>
-                                                    <span className="price">$16.00</span>
+                                                    <span className="price">€14.50</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -156,21 +150,18 @@ function MenuSection() {
                                                     <img src={Dish06} alt="img" />
                                                 </div>
                                                 <div className="dish_text">
-                                                    <h3>Bacon chorizo roasted</h3>
+                                                    <h3>Gratinierter Ziegenkäsetaler</h3>
                                                     <p>
-                                                        Bacon, chorizo, roasted roma tomatoes Beef, Eggs, poached
-                                                        Beef, Eggs, poached, with bacon,{" "}
+                                                        mit Rosmarinhonig und mariniertem Salat
                                                     </p>
-                                                    <span className="price">$22.00</span>
+                                                    <span className="price">€10.90</span>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="text-center">
-                                    <Link to="#" className="btn btn_primary">
-                                        view full menu
-                                    </Link>
+                                <a href='https://cdn.shopify.com/s/files/1/0756/4568/2002/files/HuG_Karte-7_2.pdf?v=1740935225' /* download={'Speisekarte07.09.2023.pdf'} */ className="btn m-3 btn_primary">ganze Speisekarte</a>      
                                 </div>
                             </div>
                         </div>
@@ -179,37 +170,36 @@ function MenuSection() {
                                 <div className="row">
                                     <div className="col-lg-6 col-md-12">
                                         <div className="dish_box">
-                                            <span className="new">NEW</span>
                                             <div className="dish_info">
                                                 <div className="dish_img">
                                                     <img src={Dish01} alt="img" />
                                                 </div>
                                                 <div className="dish_text">
-                                                    <h3>Beef steak grill pan</h3>
+                                                    <h3>Pulled Pork Burger</h3>
                                                     <p>
-                                                        Beef, Eggs, poached, fried, with bacon, chorizo, roasted
-                                                        roma tomatoes mushrooms &amp; spinach.
+                                                        mit Sweet-Baby-Ray BBQSauce, hausgemachter Coleslaw-Salat, Sesam Bun und Potato
                                                     </p>
-                                                    <span className="price">$16.00</span>
+                                                    <span className="price">€18.90</span>
                                                 </div>
+
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-12">
                                         <div className="dish_box">
-                                            <span className="new">NEW</span>
+{/*                                             <span className="new">NEW</span> */}
                                             <div className="dish_info">
                                                 <div className="dish_img">
                                                     <img src={Dish02} alt="img" />
                                                 </div>
                                                 <div className="dish_text">
-                                                    <h3>raw marbled meat steak</h3>
+                                                    <h3>Roastbeef</h3>
                                                     <p>
-                                                        Galjoen fish Australian lungfish sea, Shad angler arapaima
-                                                        pencilsmelt. Eggs, poached, with bacon.{" "}
+                                                        mit hausgemachter Remoulade, Bratkartoffeln, und Salatgarnitur 
                                                     </p>
-                                                    <span className="price">$22.00</span>
+                                                    <span className="price">€22.50</span>
                                                 </div>
+
                                             </div>
                                         </div>
                                     </div>
@@ -220,12 +210,12 @@ function MenuSection() {
                                                     <img src={Dish03} alt="img" />
                                                 </div>
                                                 <div className="dish_text">
-                                                    <h3>Beef steak grill pan</h3>
+                                                    <h3>Rumpsteak</h3>
                                                     <p>
-                                                        Bacon, chorizo, roasted roma tomatoes Beef, Eggs, poached
-                                                        Beef, Eggs, poached, with bacon,{" "}
+                                                        mit Beilage, Sauce nach Wahl und Beilagensalat
                                                     </p>
-                                                    <span className="price">$18.00</span>
+                                                    <span className="price">€26.00/200g</span><br></br>
+                                                    <span className="price">€36.00/300g</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -237,12 +227,13 @@ function MenuSection() {
                                                     <img src={Dish04} alt="img" />
                                                 </div>
                                                 <div className="dish_text">
-                                                    <h3>raw marbled meat steak</h3>
+                                                    <h3>Asia Platte Hof&Gut</h3>
                                                     <p>
-                                                        Shad angler arapaima pencilsmelt. Eggs, poached, fried,
-                                                        with bacon. chorizo, roasted roma tomatoes.
+                                                        mit Lachssashimi im Tempurateig, angebratenes Thunfischsashimi,
+                                                        knuspriger Maishuhnsalat, Sojasauce, eingelegter Ingwer, Wasabi,
+                                                        Sesamcreme und Wakame-Sesam-Algensalat
                                                     </p>
-                                                    <span className="price">$25.00</span>
+                                                    <span className="price">€29.00</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -254,12 +245,11 @@ function MenuSection() {
                                                     <img src={Dish05} alt="img" />
                                                 </div>
                                                 <div className="dish_text">
-                                                    <h3>Beef steak grill pan</h3>
+                                                    <h3>Wiener Schnitzel vom Kalb</h3>
                                                     <p>
-                                                        Galjoen fish Australian lungfish sea, Shad angler arapaima
-                                                        pencilsmelt. Eggs, poached, with bacon.
+                                                        mit Zitrone, Preiselbeeren, Potato Dippers und Beilagensalat
                                                     </p>
-                                                    <span className="price">$16.00</span>
+                                                    <span className="price">€26.00</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -271,21 +261,19 @@ function MenuSection() {
                                                     <img src={Dish06} alt="img" />
                                                 </div>
                                                 <div className="dish_text">
-                                                    <h3>raw marbled meat steak</h3>
+                                                    <h3>Itzenburger</h3>
                                                     <p>
-                                                        Bacon, chorizo, roasted roma tomatoes Beef, Eggs, poached
-                                                        Beef, Eggs, poached, with bacon,{" "}
+                                                        mit 180g Rindfleisch, Emmentaler, Sesam-Bun, Salat, Gurke, Tomate,
+                                                        Zwiebeln und Potato Dippers
                                                     </p>
-                                                    <span className="price">$22.00</span>
+                                                    <span className="price">€17.00</span>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="text-center">
-                                    <Link to="#" className="btn btn_primary">
-                                        view full menu
-                                    </Link>
+                                <a href='https://cdn.shopify.com/s/files/1/0756/4568/2002/files/HuG_Karte-7_2.pdf?v=1740935225' /* download={'Speisekarte07.09.2023.pdf'} */ className="btn m-3 btn_primary">ganze Speisekarte</a>      
                                 </div>
                             </div>
                         </div>
@@ -299,48 +287,43 @@ function MenuSection() {
                                                     <img src={Dish07} alt="img" />
                                                 </div>
                                                 <div className="dish_text">
-                                                    <h3>Tommy’s Margarita</h3>
+                                                    <h3>Creme Brulee</h3>
                                                     <p>
-                                                        Tomatoes Beef, Eggs, poached Beef, Eggs, poached, with
-                                                        bacon, Bacon, chorizo, roasted roma{" "}
+                                                        mit hausgemachtem Sorbet
                                                     </p>
-                                                    <span className="price">$18.00</span>
+                                                    <span className="price">€10.90</span>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-12">
                                         <div className="dish_box">
-                                            <span className="new">NEW</span>
                                             <div className="dish_info">
                                                 <div className="dish_img">
                                                     <img src={Dish08} alt="img" />
                                                 </div>
                                                 <div className="dish_text">
-                                                    <h3> Meat steak raw marbled</h3>
+                                                    <h3>Schokoladenmousse</h3>
                                                     <p>
-                                                        Shad angler arapaima pencilsmelt. Eggs, poached, with
-                                                        Galjoen fish Australian lungfish sea, bacon.{" "}
+                                                        mit Himbeeren-Chili-Sauce
                                                     </p>
-                                                    <span className="price">$22.00</span>
+                                                    <span className="price">€10.50</span>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-12">
                                         <div className="dish_box">
-                                            <span className="new">NEW</span>
                                             <div className="dish_info">
                                                 <div className="dish_img">
                                                     <img src={Dish09} alt="img" />
                                                 </div>
                                                 <div className="dish_text">
-                                                    <h3>Beef steak grill pan</h3>
+                                                    <h3>Große Kugel Eis oder Sorbet</h3>
                                                     <p>
-                                                        Roasted roma tomatoes mushrooms &amp; spinach Beef, Eggs,
-                                                        poached, fried, with bacon, chorizo.
+                                                        verschiedene Sorten
                                                     </p>
-                                                    <span className="price">$16.00</span>
+                                                    <span className="price">€4.50</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -352,50 +335,17 @@ function MenuSection() {
                                                     <img src={Dish04} alt="img" />
                                                 </div>
                                                 <div className="dish_text">
-                                                    <h3>raw marbled meat steak</h3>
+                                                    <h3>Warmer Schokoladenkuchen</h3>
                                                     <p>
-                                                        Shad angler arapaima pencilsmelt. Eggs, poached, fried,
-                                                        with bacon. chorizo, roasted roma tomatoes.
+                                                        mit Vanilleeis
                                                     </p>
-                                                    <span className="price">$25.00</span>
+                                                    <span className="price">€10.90</span>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-lg-6 col-md-12">
-                                        <div className="dish_box">
-                                            <div className="dish_info">
-                                                <div className="dish_img">
-                                                    <img src={Dish05} alt="img" />
-                                                </div>
-                                                <div className="dish_text">
-                                                    <h3>Prickly Pear Tonic</h3>
-                                                    <p>
-                                                        Galjoen fish Australian lungfish sea, Shad angler arapaima
-                                                        pencilsmelt. Eggs, poached, with bacon.
-                                                    </p>
-                                                    <span className="price">$16.00</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-6 col-md-12">
-                                        <div className="dish_box">
-                                            <div className="dish_info">
-                                                <div className="dish_img">
-                                                    <img src={Dish06} alt="img" />
-                                                </div>
-                                                <div className="dish_text">
-                                                    <h3>Bacon chorizo roasted</h3>
-                                                    <p>
-                                                        Bacon, chorizo, roasted roma tomatoes Beef, Eggs, poached
-                                                        Beef, Eggs, poached, with bacon,{" "}
-                                                    </p>
-                                                    <span className="price">$22.00</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+
+
                                 </div>
                                 <div className="text-center">
                                     <Link to="#" className="btn btn_primary">
@@ -409,36 +359,44 @@ function MenuSection() {
                                 <div className="row">
                                     <div className="col-lg-6 col-md-12">
                                         <div className="dish_box">
-                                            <span className="new">NEW</span>
                                             <div className="dish_info">
                                                 <div className="dish_img">
                                                     <img src={Desert1} alt="img" />
                                                 </div>
                                                 <div className="dish_text">
-                                                    <h3>Beef steak grill pan</h3>
+                                                    <h3>SCHAUMWEIN</h3>
                                                     <p>
-                                                        Beef, Eggs, poached, fried, with bacon, chorizo, roasted
-                                                        roma tomatoes mushrooms &amp; spinach.
+                                                    EBERBACH-SCHÄFER SCHW ARZRIESLING, BLANC DE NOIR <span >€38.00</span>
                                                     </p>
-                                                    <span className="price">$16.00</span>
+                                                    <p>
+                                                    BOUVET - LADUBA Y CREMANT SAPHIR SAUMUR <span >€45.00</span>
+                                                    </p>
+                                                    <p>
+                                                    BOUVET LADUBAY CREMANT ROSE TRESOR <span >€54.00</span>
+                                                    </p>                                             
                                                 </div>
+                                                
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-12">
                                         <div className="dish_box">
-                                            <span className="new">NEW</span>
                                             <div className="dish_info">
                                                 <div className="dish_img">
                                                     <img src={Desert2} alt="img" />
                                                 </div>
                                                 <div className="dish_text">
-                                                    <h3>raw marbled meat steak</h3>
+                                                    <h3>WEISSWEIN</h3>
                                                     <p>
-                                                        Galjoen fish Australian lungfish sea, Shad angler arapaima
-                                                        pencilsmelt. Eggs, poached, with bacon.{" "}
+                                                        VAN VOLXEM WILTINGER RIESLING - 2020 <span >€49.00</span>
                                                     </p>
-                                                    <span className="price">$22.00</span>
+                                                    <p>
+                                                        BULGARIN! "GOCCE D' ORO - LUGANA <span >€42.20</span>
+                                                    </p>
+                                                    <p>
+                                                        HAMMEL CUVEE MARIAGE - CHARDONNAY /WEISSBURGUNDER <span >€32.50</span>
+                                                    </p>
+                                                    
                                                 </div>
                                             </div>
                                         </div>
@@ -450,12 +408,17 @@ function MenuSection() {
                                                     <img src={Desert3} alt="img" />
                                                 </div>
                                                 <div className="dish_text">
-                                                    <h3>Beef steak grill pan</h3>
+                                                    <h3>ROSE</h3>
                                                     <p>
-                                                        Bacon, chorizo, roasted roma tomatoes Beef, Eggs, poached
-                                                        Beef, Eggs, poached, with bacon,{" "}
+                                                    METZGER PETIT ROSE <span >€32.00</span>
                                                     </p>
-                                                    <span className="price">$18.00</span>
+                                                    <p>
+                                                    CLOS DU BEUGNON "ROSE D'ANJOU" <span >€29.00</span>
+                                                    </p>
+                                                    <p>
+                                                    KIMMICH JULIUS FERDINAND ROSE <span >€29.00</span>
+                                                    </p>
+                                                    
                                                 </div>
                                             </div>
                                         </div>
@@ -467,12 +430,16 @@ function MenuSection() {
                                                     <img src={Desert4} alt="img" />
                                                 </div>
                                                 <div className="dish_text">
-                                                    <h3>raw marbled meat steak</h3>
+                                                    <h3>ROTWEIN</h3>
                                                     <p>
-                                                        Shad angler arapaima pencilsmelt. Eggs, poached, fried,
-                                                        with bacon. chorizo, roasted roma tomatoes.
+                                                        "CHATEAU LA COMMUNION" - CUVEE MERLOT/CABERNET <span >€58.00</span>
                                                     </p>
-                                                    <span className="price">$25.00</span>
+                                                    <p>
+                                                        EGUREN UGARTE - TEMPRANILLO 2019 <span >€56.00</span>
+                                                    </p>
+                                                    <p>
+                                                        PRIMMO MALBEC <span >€42.00</span>
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -484,12 +451,16 @@ function MenuSection() {
                                                     <img src={Dish05} alt="img" />
                                                 </div>
                                                 <div className="dish_text">
-                                                    <h3>Beef steak grill pan</h3>
+                                                    <h3>BIER</h3>
                                                     <p>
-                                                        Galjoen fish Australian lungfish sea, Shad angler arapaima
-                                                        pencilsmelt. Eggs, poached, with bacon.
+                                                    Augustiner <span >€5.90/0.5L</span>
                                                     </p>
-                                                    <span className="price">$16.00</span>
+                                                    <p>
+                                                    Schneider W eisse T AP7 Weizen <span >€5.40/0.5L</span>
+                                                    </p>
+                                                    <p>
+                                                    Alsterwasser <span >€5.40/0.5L</span>
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -501,21 +472,23 @@ function MenuSection() {
                                                     <img src={Dish06} alt="img" />
                                                 </div>
                                                 <div className="dish_text">
-                                                    <h3>raw marbled meat steak</h3>
+                                                    <h3>ERFRISCHENDES OHNE ALKOHOL</h3>
                                                     <p>
-                                                        Bacon, chorizo, roasted roma tomatoes Beef, Eggs, poached
-                                                        Beef, Eggs, poached, with bacon,{" "}
+                                                    Fritz Getränke <span >€3.70/0.33L</span>
                                                     </p>
-                                                    <span className="price">$22.00</span>
+                                                    <p>
+                                                    Saft-/Nektar <span >€3.50/0.2L</span>
+                                                    </p>
+                                                    <p>
+                                                        Schweppes Getränke <span >€3.50/0.2L</span>
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="text-center">
-                                    <Link to="#" className="btn btn_primary">
-                                        view full menu
-                                    </Link>
+                                <a href='https://cdn.shopify.com/s/files/1/0756/4568/2002/files/HuG_Karte-7_2.pdf?v=1740935225' /* download={'Speisekarte07.09.2023.pdf'} */ className="btn m-3 btn_primary">ganze Speisekarte</a>      
                                 </div>
                             </div>
                         </div>

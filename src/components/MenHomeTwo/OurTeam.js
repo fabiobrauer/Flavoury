@@ -1,7 +1,7 @@
 import React from 'react'
 import Slider from 'react-slick'
 import Team01 from '../../assets/images/knife_fire.png'
-import Team02 from '../../assets/images/chef_01.png'
+import Team02 from '../../assets/images/who_chef.png'
 import Team03 from '../../assets/images/chef_02.png'
 import Team04 from '../../assets/images/chef_03.png'
 
@@ -31,8 +31,8 @@ function OurTeam() {
                 </div>
                 <div className="container">
                     <div className="section_title text-center" data-aos="fade-up" data-aos-duration={1500} >
-                        <span className="sub_text">Our team</span>
-                        <h2>meet our chef</h2>
+                        <span className="sub_text">Unser Team</span>
+                        <h2>Küche und Service</h2>
                     </div>
                     <div className="team_slider_wraper" data-aos="fade-in" data-aos-duration={1500} >
                         <Slider className="" id="team_slider" {...Team} slidesToShow={3} arrows={false}>
@@ -42,8 +42,8 @@ function OurTeam() {
                                         <img src={Team02} alt="img" />
                                     </div>
                                     <div className="info">
-                                        <h3>Jammie Waters</h3>
-                                        <span className="position">Master Chef</span>
+                                        <h3>Frank Schiffner</h3>
+                                        <span className="position">Chefkoch</span>
                                     </div>
                                 </div>
                             </div>
@@ -53,8 +53,8 @@ function OurTeam() {
                                         <img src={Team03} alt="img" />
                                     </div>
                                     <div className="info">
-                                        <h3>Amelia Ava</h3>
-                                        <span className="position">Master Chef</span>
+                                        <h3>Miki Spachi</h3>
+                                        <span className="position">Restaurantleiter</span>
                                     </div>
                                 </div>
                             </div>
@@ -64,8 +64,8 @@ function OurTeam() {
                                         <img src={Team04} alt="img" />
                                     </div>
                                     <div className="info">
-                                        <h3>John Due</h3>
-                                        <span className="position">Master Chef</span>
+                                        <h3>Albina Spachi</h3>
+                                        <span className="position">Restaurantleiterin</span>
                                     </div>
                                 </div>
                             </div>
