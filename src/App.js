@@ -14,14 +14,17 @@ import '../src/assets/css/slick.css';
 
 
 
+
 function App() {
   return (
     <>
+
       <HelmetProvider>  {/* ✅ Hier den HelmetProvider hinzufügen */}
         <Router>
           <Routing />
         </Router>
       </HelmetProvider>
+
     </>
   );
 }

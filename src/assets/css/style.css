@@ -168,7 +168,41 @@ button:focus,
   background-position: center;
   background-attachment: fixed;
 }
-
+.light_texchur2 {
+  background-image: url(../images/dark_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+/* move image */
+.move_left{
+  transform: translateX(-200px);
+}
+.move_left2{
+  transform: translateX(-200px);
+}
+.move_right{
+  transform: translateX(200px);
+}
+.move_right2{
+  transform: translateX(400px);
+}
+.move_up_left{
+  transform: translate3d(-270px, -70px, 0);
+}
+.move_down_right{
+  transform: translate3d(180px, 320px, 0);
+}
+.move_down_left{
+  transform: translate3d(150px, 90px, 0);
+}
+.move_down{
+  transform: translateY(150px);
+}
+.move_up{
+  transform: translateY(-150px);
+}
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1400px;
@@ -2860,6 +2894,11 @@ iframe#youtubevideo {
   border: var(--img-border);
   height: 785px;
   width: 100%;
+  object-fit: cover;
+}
+.radius_img_hofladen{
+  border-radius: 100px;
+  border: var(--img-border);
   object-fit: cover;
 }
 

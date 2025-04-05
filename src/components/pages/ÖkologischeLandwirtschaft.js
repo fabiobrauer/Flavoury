@@ -1,11 +1,22 @@
-import { Helmet } from "react-helmet-async";
-import LandwiBanner from "../assets/Comp_LandwiBanner";
+import React, { useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
+import LandwiBanner from '../assets/Comp_LandwiBanner';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import '../../assets/css/style.css';
 
-export default function OekologischeLandwirtschaft() {
+import KueheImg from '../../assets/images/KüheNeu.jpeg';
+import EUFoerderungImg from '../../assets/images/EU-ELER_CMYK1-271x300 1.png';
+import HofplanImg from '../../assets/images/hofplan 1.png';
+
+function OekologischeLandwirtschaft() {
+  useEffect(() => {
+    AOS.init({ once: false });
+    AOS.refresh();
+  }, []);
+
   return (
-    <div style={{ marginTop: "15px" }}>
-      <LandwiBanner />
-
+    <div className="index_wraper">
       <Helmet>
         <title>Ökologische Landwirtschaft Hof&Gut Jesteburg</title>
         <meta name="description" content="Alles über unsere Tiere und die Landwirtschaft" />
@@ -13,50 +24,67 @@ export default function OekologischeLandwirtschaft() {
         <meta name="fragment" content="!" />
       </Helmet>
 
-      {/* Main Content with Images */}
-      <div style={{ padding: "10px", textAlign: "center" }}>
-        <h2>Ökologische Landwirtschaft</h2>
-        <img src="KüheNeu.jpeg" alt="Kühe" style={{ width: "100%", maxHeight: "520px", objectFit: "cover" }} />
-      </div>
+      <LandwiBanner />
 
-      {/* Sidebar */}
-      <div style={{ padding: "10px", textAlign: "center" }}>
-        <img src="EU-ELER_CMYK1-271x300 1.png" alt="EU Förderung" style={{ width: "100%" }} />
-        <p>
-          Hier investiert Europa in die ländlichen Gebiete mit „Agrarumwelt- und Klimaschutzmaßnahmen”. Mit diesen
-          Maßnahmen werden landwirtschaftliche Betriebe bei der Erhaltung und Verbesserung der Umweltsituation
-          unterstützt. Ziel ist eine nachhaltige und ressourcenschonende Bewirtschaftung in Bezug auf Artenvielfalt,
-          Boden, Wasser und den Schutz des Klimas. Siehe auch:
-          <a href="https://www.eler.niedersachsen.de" target="_blank" rel="noopener noreferrer">
-            www.eler.niedersachsen.de
-          </a>
-        </p>
-      </div>
+      <div className="row_inner_am who_we_section who_version_two light_texchur2 mt-5">
+        <div className="container mt-5">
+          <div className="section_title text-center" data-aos="fade-up" data-aos-duration={1500}>
+            <span className="sub_text">Hof & Gut Jesteburg</span>
+            <h2>Ökologische Landwirtschaft</h2>
+          </div>
 
-      {/* Philosophy Section */}
-      <div style={{ padding: "10px" }}>
-        <h3>Philosophie</h3>
-        <p>
-          Unser Ziel ist es, mit Hof&Gut einen Kreislauf (wieder)herzustellen, der Menschen in Lohn und Brot bringt und
-          alle Tiere des Hofes ernährt. Außerdem soll sich die historische Hofstelle zu einem Ort der Begegnung
-          entwickeln, an dem Kinder und Erwachsene als Gäste gerne verweilen, miteinander ihre Freizeit verbringen und
-          einen historischen Bauernhof erleben. Die Hofstelle umfasst eine Gesamtfläche von 85 Hektar, je hälftig
-          Forst- und Ackerflächen. Die Ackerflächen werden seit 2007 biologisch bewirtschaftet und jährlich von der
-          Gesellschaft für Ressourcenschutz mbH (GfRS) aus Göttingen zertifiziert. Die zum Hof gehörenden Rinder stehen
-          durch die extensiven Grünflächen auf eigener Futtergrundlage.
-        </p>
-      </div>
+          <div className="row mb-5" data-aos="fade-up" data-aos-duration={1500}>
+            <div className="col-12 text-center">
+              <img src={KueheImg} alt="Kühe" className="img-fluid radius_img smaller_image mt-4" style={{ maxHeight: '520px', objectFit: 'cover' }} />
+            </div>
+          </div>
 
-      {/* Map and Details Section */}
-      <div style={{ padding: "10px", textAlign: "center" }}>
-        <img src="hofplan 1.png" alt="Hofplan" style={{ width: "100%" }} />
-        <p>
-          Unsere Daten für die ökologische Bewirtschaftung:<br />
-          Hof & Gut Jesteburg Agrar GmbH & Co. KG<br />
-          Betriebsnummer: 276033530200088<br />
-          ÖkokontrollNr. DE-NI-039-08263-
-        </p>
+          <div className="row mb-5 justify-content-center" data-aos="fade-up" data-aos-duration={1500}>
+            <div className="col-md-6 text-center">
+              <img src={EUFoerderungImg} alt="EU Förderung" className="img-fluid mb-3" />
+              <p>
+                Hier investiert Europa in die ländlichen Gebiete mit „Agrarumwelt- und Klimaschutzmaßnahmen”. Mit diesen
+                Maßnahmen werden landwirtschaftliche Betriebe bei der Erhaltung und Verbesserung der Umweltsituation
+                unterstützt. Ziel ist eine nachhaltige und ressourcenschonende Bewirtschaftung in Bezug auf Artenvielfalt,
+                Boden, Wasser und den Schutz des Klimas. <br />
+                Siehe auch:{" "}
+                <a href="https://www.eler.niedersachsen.de" target="_blank" rel="noopener noreferrer" className="text-primary-red">
+                  www.eler.niedersachsen.de
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div className="row mb-5" data-aos="fade-up" data-aos-duration={1500}>
+            <div className="col-12">
+              <h3>Philosophie</h3>
+              <p>
+                Unser Ziel ist es, mit Hof&Gut einen Kreislauf (wieder)herzustellen, der Menschen in Lohn und Brot bringt
+                und alle Tiere des Hofes ernährt. Außerdem soll sich die historische Hofstelle zu einem Ort der Begegnung
+                entwickeln, an dem Kinder und Erwachsene als Gäste gerne verweilen, miteinander ihre Freizeit verbringen
+                und einen historischen Bauernhof erleben. Die Hofstelle umfasst eine Gesamtfläche von 85 Hektar, je hälftig
+                Forst- und Ackerflächen. Die Ackerflächen werden seit 2007 biologisch bewirtschaftet und jährlich von der
+                Gesellschaft für Ressourcenschutz mbH (GfRS) aus Göttingen zertifiziert. Die zum Hof gehörenden Rinder stehen
+                durch die extensiven Grünflächen auf eigener Futtergrundlage.
+              </p>
+            </div>
+          </div>
+
+          <div className="row mb-5" data-aos="fade-up" data-aos-duration={1500}>
+            <div className="col-12 text-center">
+              <img src={HofplanImg} alt="Hofplan" className="img-fluid mb-3 radius_img" />
+              <p>
+                <strong>Unsere Daten für die ökologische Bewirtschaftung:</strong><br />
+                Hof & Gut Jesteburg Agrar GmbH & Co. KG<br />
+                Betriebsnummer: 276033530200088<br />
+                ÖkokontrollNr. DE-NI-039-08263-
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
 }
+
+export default OekologischeLandwirtschaft;

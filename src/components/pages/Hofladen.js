@@ -1,9 +1,21 @@
+import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import Comp_Swiper from '../assets/Comp_shop2';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import '../../assets/css/style.css';
+import HofladenBild from '../../assets/images/Hofladen1.jpg'
+import HofladenBild2 from '../../assets/images/Hofladen3.jpg'
+import HofladenBild3 from '../../assets/images/Hofladen4.jpg'
 
-export default function Hofladen() {
+function Hofladen() {
+  useEffect(() => {
+    AOS.init({ once: false });
+    AOS.refresh();
+  }, []);
+
   return (
-    <div style={{ marginTop: '15px' }}>
+    <div className="index_wraper">
       <Helmet>
         <title>Hofladen</title>
         <meta name="description" content="Der Hof und Gut Hofladen" />
@@ -11,59 +23,61 @@ export default function Hofladen() {
         <meta name="fragment" content="!" />
       </Helmet>
 
-      {/* Image and description section */}
-      <div style={{ padding: '10px' }}>
-        <img
-          src="Hofladen1.jpg"
-          alt="Hofladen Bild"
-          style={{ objectFit: 'cover', objectPosition: 'bottom', width: '100%', maxHeight: '420px', minHeight: '410px' }}
-        />
-      </div>
+      <div className="row_inner_am who_we_section who_version_two light_texchur2 mt-5">
+        <div className="container mt-5">
+          <div className="section_title text-center" data-aos="fade-up" data-aos-duration={1500}>
+            <span className="sub_text">Unser Hofladen</span>
+            <h2>Regionale Qualität direkt vom Hof</h2>
+          </div>
 
-      <div style={{ padding: '10px' }}>
-        <h2>Der Hofladen</h2>
-        <p>
-          Unser kleiner Hofladen ist immer Dienstag abends und am Samstag von 11-15 Uhr geöffnet. Es gibt Fleisch, Wurst und Grillgut vom Hof&Gut Aubrac, Hühnchenfleisch und allerlei frische Salate und Saucen vom Hof Warnke, saisonales Gemüse und Bioeier von den Biohöfen Wurzelreich und Koch, sowie eine kleine Auswahl von italienischen Spezialitäten und Erlesenes aus dem Hof&Gut-Weinkeller. Für Hübsches sorgen Bea und Heike...
-        </p>
-      </div>
+          <div className="row mb-5" data-aos="fade-up" data-aos-duration={1500}>
+            <div className="col-6 text-center">
+              <img src={HofladenBild} alt="img" className='smaller_image mt-4 move_left radius_img'/>
+            </div>
+            <div className="col-6 text-center">
+              <img src={HofladenBild2} alt="img" className='smaller_image mt-4 move_down_right radius_img_hofladen'/>
+            </div>
+          </div>
 
-      <div style={{ padding: '10px' }}>
-        <img
-          src="Produktauswahlt.jpg"
-          alt="Produktauswahl"
-          style={{ objectFit: 'cover', objectPosition: 'bottom', width: '100%', maxHeight: '420px', minHeight: '410px' }}
-        />
-      </div>
+          <div className="row mb-5" data-aos="fade-up" data-aos-duration={1500}>
+            <div className="col-12">
+              <h3>Der Hofladen</h3>
+              <p>
+                Unser kleiner Hofladen ist immer Dienstag abends und am Samstag von 11-15 Uhr geöffnet. Es gibt Fleisch,
+                Wurst und Grillgut vom Hof&Gut Aubrac, Hühnchenfleisch und allerlei frische Salate und Saucen vom Hof
+                Warnke, saisonales Gemüse und Bioeier von den Biohöfen Wurzelreich und Koch, sowie eine kleine Auswahl
+                von italienischen Spezialitäten und Erlesenes aus dem Hof&Gut-Weinkeller. Für Hübsches sorgen Bea und Heike...
+              </p>
+            </div>
+          </div>
+          <div className="row mb-5" data-aos="fade-up" data-aos-duration={1500}>
+            <div className="col-xs-12 col-md-6">
+            <img src={HofladenBild3} alt="img" className='smaller_image move_down_left radius_img_hofladen' />
 
-      {/* Rindfleisch and Gänse sales section */}
-      <div style={{ padding: '10px' }}>
-        <h3>Verkauf von Rindfleisch aus ökologischer Haltung (Rindfleisch und Gänse)</h3>
-        <p>
-          Wir verkaufen in regelmäßigen Abständen Rindfleisch aus eigener Produktion. Es kann jeweils in 10- oder 20-kg-Paketen erworben werden (Preis 170,- bzw. 320,- Euro). Enthalten sind immer Rouladen, Hack, Braten, Gulasch, Beinscheibe, Suppenfleisch und Steaks. Außerdem können Sie bereits jetzt eine Weihnachtsgans 2024 bestellen, solange der Vorrat reicht! Bitte melden Sie sich bei Interesse gerne unter info@hof-und-gut.de, damit wir ein Paket Fleisch oder eine Gans für Sie reservieren!
-        </p>
-      </div>
+            </div>
+            <div className="col-xs-12 col-md-6">
+              <h3>Verkauf von Rindfleisch und Gänsen</h3>
+              <p>
+                Wir verkaufen in regelmäßigen Abständen Rindfleisch aus eigener Produktion. Es kann jeweils in 10- oder
+                20-kg-Paketen erworben werden (Preis 170,- bzw. 320,- Euro). Enthalten sind immer Rouladen, Hack, Braten,
+                Gulasch, Beinscheibe, Suppenfleisch und Steaks. Außerdem können Sie bereits jetzt eine Weihnachtsgans 2024
+                bestellen, solange der Vorrat reicht!
+              </p>
+              <p>
+                <strong>Interesse?</strong> Dann schreiben Sie uns: <a href="mailto:info@hof-und-gut.de" className="text-primary-red">info@hof-und-gut.de</a>
+              </p>
+            </div>
 
-      {/* Additional images */}
-      <div style={{ padding: '10px' }}>
-        <img
-          src="Gemuese.jpg"
-          alt="Gemüse"
-          style={{ objectFit: 'cover', objectPosition: 'bottom', width: '100%', maxHeight: '550px', minHeight: '540px' }}
-        />
-      </div>
-
-      <div style={{ padding: '10px' }}>
-        <img
-          src="Produkte2.jpg"
-          alt="Produkte"
-          style={{ objectFit: 'cover', objectPosition: 'bottom', width: '100%', maxHeight: '550px', minHeight: '540px' }}
-        />
-      </div>
-
-      {/* Swiper component */}
-      <div style={{ padding: '10px' }}>
-        <Comp_Swiper />
+          </div>
+          <div className="row pt-5" data-aos="fade-up" data-aos-duration={1500}>
+            <div className="col-12">
+              <Comp_Swiper />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
 }
+
+export default Hofladen;

@@ -6,6 +6,20 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
+import Slide1 from '../../assets/images/ProduktBild-103.jpg'
+import Slide2 from '../../assets/images/ProduktBild-106.jpg'
+import Slide3 from '../../assets/images/ProduktBild-109.jpg'
+import Slide4 from '../../assets/images/ProduktBild-111.jpg'
+import Slide5 from '../../assets/images/ProduktBild-114.jpg'
+import Slide6 from '../../assets/images/ProduktBild-115.jpg'
+import Slide7 from '../../assets/images/ProduktBild-117.jpg'
+import Slide8 from '../../assets/images/ProduktBild-120.jpg'
+import Slide9 from '../../assets/images/ProduktBild-123.jpg'
+import Slide10 from '../../assets/images/ProduktBild-125.jpg'
+import Slide11 from '../../assets/images/ProduktBild-128.jpg'
+import Slide12 from '../../assets/images/ProduktBild-130.jpg'
+import Slide13 from '../../assets/images/ProduktBild-133.jpg'
+import Slide14 from '../../assets/images/ProduktBild-137.jpg'
 
 export default function Comp_Swiper() {
   return (
@@ -39,27 +53,29 @@ export default function Comp_Swiper() {
         >
           <SwiperSlide>
             <a href="https://shop-hof-und-gut.de/collections/olivenol/products/olivenol">
-              <img src="ProduktBild-103.jpg" alt="Olivenöl" style={{ width: "250px", height: "450px", borderRadius: "10px" }} />
+            <img src={Slide1} alt="img" className='radius_img_hofladen'/>
             </a>
           </SwiperSlide>
           
           <SwiperSlide>
-            <img src="ProduktBild-106.jpg" alt="Eberbach Schäfer Champagner" style={{ width: "250px", height: "450px", borderRadius: "10px" }} />
+            <a href="https://shop-hof-und-gut.de/collections/olivenol/products/olivenol">
+              <img src={Slide2} alt="img" className='radius_img_hofladen'/>
+            </a>          
           </SwiperSlide>
           
           <SwiperSlide>
             <a href="https://shop-hof-und-gut.de/products/bulgarini-lugana">
-              <img src="ProduktBild-117.jpg" alt="Lugana Weißwein" style={{ width: "250px", height: "450px", borderRadius: "10px" }} />
+            <img src={Slide3} alt="img" className='radius_img_hofladen'/>
             </a>
           </SwiperSlide>
           
           <SwiperSlide>
-            <img src="ProduktBild-120.jpg" alt="Rose d`Anjou" style={{ width: "250px", height: "450px", borderRadius: "10px" }} />
+          <img src={Slide4} alt="img" className='radius_img_hofladen'/>
           </SwiperSlide>
           
           <SwiperSlide>
             <a href="https://shop-hof-und-gut.de/collections/weine/products/fabelhaft">
-              <img src="ProduktBild-147.jpg" alt="Fabelhaft Rotwein Nieport" style={{ width: "250px", height: "450px", borderRadius: "10px" }} />
+            <img src={Slide5} alt="img" className='radius_img_hofladen'/>
             </a>
           </SwiperSlide>
         </Swiper>
@@ -67,7 +83,7 @@ export default function Comp_Swiper() {
       
       <div style={{ marginTop: "20px" }}>
         <a href="https://shop-hof-und-gut.de/">
-          <button style={{ padding: "10px 20px", fontSize: "16px", cursor: "pointer" }}>Zum Shop</button>
+          <button className="btn btn_primary">Zum Shop</button>
         </a>
       </div>
     </div>

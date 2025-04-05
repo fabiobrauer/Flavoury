@@ -29,10 +29,13 @@ import VeranstaltungenKunstKultur from '../components/pages/VeranstaltungenKunst
 import OekologischeLandwirtschaft from '../components/pages/ÖkologischeLandwirtschaft';
 import UebernachtenAmHof from '../components/pages/ÜbernachtenAmHof';
 import UeberUns from '../components/pages/ÜberUns';
+import Header from '../../src/components/Header/Main'
+import Footer from '../../src/components/Footer/Main'
 
 function Index() {
   return (
     <>
+          <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home2" element={<HomeTwo />} />
@@ -64,6 +67,7 @@ function Index() {
         <Route path="/uebernachtenamhof" element={<UebernachtenAmHof />} />
         <Route path="/ueberuns" element={<UeberUns />} />
       </Routes>
+      <Footer/>
     </>
   );
 }

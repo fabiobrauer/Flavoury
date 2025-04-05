@@ -457,7 +457,10 @@
     .navbar-expand-lg .navbar-nav .nav-item {
         margin: 0;
     }
-
+    /* smaller Images */
+    .smaller_image{
+        width: 330px;
+    }
     /* navigation section */
     .navbar-toggler-icon {
         display: flex;

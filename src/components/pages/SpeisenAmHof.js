@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
-import Header from '../Header/Main'
-import Footer from '../Footer/Main'
+/* import Header from '../Header/Main'
+import Footer from '../Footer/Main' */
 import PopularDish from '../MenHomeThree/PopularDish'
 /* import Menulist from '../MenHomeTwo/Menulist'
 import VideoTwo from '../MenHomeTwo/VideoTwo' */
@@ -25,7 +25,6 @@ function Main() {
 
   return (
     <>        
-    <Header />
     <div className='index_wraper'>
       <Helmet>
         <title>Speisen am Hof</title>
@@ -44,7 +43,7 @@ function Main() {
         {/*         <div className='testom'>
         <Testimonial />
         </div> */}
-        <Footer />
+
       </div>
     </>
   )
