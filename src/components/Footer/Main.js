@@ -37,16 +37,16 @@ function Main() {
               <div className="col">
                 <ul className="social_media">
                   <li>
-                    <a href="https://www.facebook.com/hofundgut/" target='_blank'>Facebook</a>
+                    <a href="https://www.facebook.com/hofundgut/" target='_blank' rel="noreferrer">Facebook</a>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/hofundgutjesteburg/" target='_blank'>Instagram</a>
+                    <a href="https://www.instagram.com/hofundgutjesteburg/" target='_blank' rel="noreferrer">Instagram</a>
                   </li>
                   <li>
-                    <a href="https://www.booking.com/hotel/de/ubernachten-am-hof.de.html?aid=2405612&label=brave_nonbrand_organic_trigger_8e04a9f7-c7d3-4b3b-a255-3644144f3921_0&sid=c62ada237665a69bbf4984ab4510927c&dest_id=-1801836&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1737127013&srpvid=15856b6c24070260&type=total&ucfs=1&" target='_blank'>Booking.com</a>
+                    <a href="https://www.booking.com/hotel/de/ubernachten-am-hof.de.html?aid=2405612&label=brave_nonbrand_organic_trigger_8e04a9f7-c7d3-4b3b-a255-3644144f3921_0&sid=c62ada237665a69bbf4984ab4510927c&dest_id=-1801836&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&srepoch=1737127013&srpvid=15856b6c24070260&type=total&ucfs=1&" target='_blank' rel="noreferrer">Booking.com</a>
                   </li>
                   <li>
-                    <a href="https://shop-hof-und-gut.de/" target='_blank'>Online Shop</a>
+                    <a href="https://shop-hof-und-gut.de/" target='_blank' rel="noreferrer">Online Shop</a>
                   </li>
                 </ul>
               </div>
