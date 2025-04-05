@@ -1002,13 +1002,24 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
     opacity: 0;
     transition-property: opacity, transform
 }
+[data-aos^=fade2] {
+    opacity: 0;
+    transition-property: opacity, transform
+}
 
 [data-aos^=fade][data-aos^=fade].aos-animate {
     opacity: 1;
     transform: translateZ(0)
 }
+[data-aos^=fade2].aos-animate {
+    opacity: 1;
+    transform: translateZ(0)
+}
 
 [data-aos=fade-up] {
+    transform: translate3d(0, 100px, 0)
+}
+[data-aos=fade2-up] {
     transform: translate3d(0, 100px, 0)
 }
 

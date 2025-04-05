@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/images/logo.png';
-import MenuImg from '../../assets/images/right_menu_table.png';
+/* import MenuImg from '../../assets/images/right_menu_table.png'; */
 
 function Main() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -55,7 +55,7 @@ function Main() {
                   <div className="sub_menu">
                     <ul>
                       <li><Link to="/SpeisenAmHof">Speisen am Hof</Link></li>
-                      <li><Link to="/ÜbernachtenAmHof">Übernachten am Hof</Link></li>
+                      <li><Link to="/uebernachtenAmHof">Übernachten am Hof</Link></li>
                       <li><Link to="/Stellenangebote">Stellenangebote</Link></li>
                       <li><Link to="/Kontakt">Kontakt & Anfahrt</Link></li>
                     </ul>

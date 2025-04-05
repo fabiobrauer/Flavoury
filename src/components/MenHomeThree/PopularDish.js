@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Slider from 'react-slick'
-import DishImg1 from '../../assets/images/chiken_side.png'
-import DishImg2 from '../../assets/images/chiken_side2.png'
+import DishImg1 from '../../assets/images/CaffeMaschine.jpg'
+import DishImg2 from '../../assets/images/Stube2.jpg'
 import Dish01 from '../../assets/images/SpargelScampi.jpeg'
 import Dish02 from '../../assets/images/Nachtisch.jpeg'
 import Dish03 from '../../assets/images/Dorade.jpeg'
 import Dish04 from '../../assets/images/Entrecôte.jpg'
+import Dish05 from '../../assets/images/SpanischeGamba.jpg'
 
 const Popular = {
   responsive: [
@@ -75,9 +76,9 @@ function PopularDish() {
               <div className="item">
                 <div className="dish_card">
                   <div className="img">
-                    <img src={Dish01} alt="img" />
+                    <img src={Dish05} alt="img" />
                   </div>
-                  <h3>Spargel Scampi</h3>
+                  <h3>Spanische Gambapfanne</h3>
                 </div>
               </div>
             </Slider>

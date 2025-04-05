@@ -33,7 +33,7 @@ export default function Presse() {
           Herbst vorigen Jahres.
         </p>
         <p>
-          <a href="#">Artikel im Abendblatt</a>
+          <a>Artikel im Abendblatt</a>
         </p>
       </div>
 
