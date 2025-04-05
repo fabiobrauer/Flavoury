@@ -11,7 +11,6 @@ function MenuList1Bred() {
                             <img src={Icon} alt="img" />
                         </span>
                         <span className="sub_text">Speisen am Hof</span>
-                        <h2>delicious tasty dishes in paris</h2>
                     </div>
                 </div>
             </section>
