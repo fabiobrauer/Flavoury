@@ -75,7 +75,7 @@ function Main() {
                   <div className={`sub_menu ${openDropdowns['hof'] ? 'open' : ''}`}>
                     <ul>
                       <li><Link to="/Hofladen" onClick={handleMenuItemClick}>Hofladen</Link></li>
-                      <li><Link to="/ÜberUns" onClick={handleMenuItemClick}>Über Uns</Link></li>
+                      <li><Link to="/ueberUns" onClick={handleMenuItemClick}>Über Uns</Link></li>
                       <li><Link to="/gebaeude" onClick={handleMenuItemClick}>Gebäude</Link></li>
                       <li><Link to="/oekologischeLandwirtschaft" onClick={handleMenuItemClick}>Ökologische Landwirtschaft</Link></li>
                       <li><Link to="/Links" onClick={handleMenuItemClick}>Partner & Links</Link></li>

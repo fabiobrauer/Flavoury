@@ -113,10 +113,9 @@ function Deliciousmenu() {
             </div>
           </div>
         </div>
-        <div className="video_wraper">
-          <div className="action_box" style={{ backgroundImage: `url(${BG})`}} >
+          <div className="video_wrapper container">
+              <img src={BG} alt="GIF" className='img-fluid' />
           </div>
-        </div>
       </section>
 
       {ytshow &&

@@ -5,6 +5,8 @@ import Img02 from '../../assets/images/banner_right_shap.png'
 import Img03 from '../../assets/images/b_img_01.png'
 import Img06 from '../../assets/images/b_img_02.png'
 import Img09 from '../../assets/images/b_img_03.png'
+import img10 from '../../assets/images/BannerHomeMobile2.png'
+import img11 from '../../assets/images/BannerHomeMobile3.png'
 
 function Banner() {
   return (
@@ -15,15 +17,23 @@ function Banner() {
             <h1 data-aos="fade-up" data-aos-duration={1500}>
               Willkommen bei<br /> Hof&Gut Jesteburg
             </h1>
-            <div className="banner_images">
-              <div className="img" data-speed={100}>
+            <div className="banner_images ">
+              <div className="img disable_mobile" data-speed={100}>
                 <img className="radius_img" src={Img03} alt="img" />
               </div>
-              <div className="img" data-speed={100}>
+              <div className="img disable_mobile" data-speed={100}>
                 <img className="radius_img" src={Img06} alt="img" />
               </div>
-              <div className="img" data-speed={100}>
+              <div className="img disable_mobile" data-speed={100}>
                 <img className="radius_img" src={Img09} alt="img" />
+              </div>
+              
+              <div className='container'>
+                <div className='mobile_active row mobile_Off'>
+                  <div className="img_mobile col-xs-12" data-speed={100}>
+                    <img src={img11} alt="img" className='img-fluid' />
+                  </div>
+                </div>              
               </div>
 
 

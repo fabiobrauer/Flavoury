@@ -34,7 +34,7 @@ function PrivateSection() {
                     Bitte reservieren Sie rechtzeitig einen Tisch, besonders wenn Sie am Wochenende oder zum Abendessen kommen möchten… Sie können auch auf unserer Diele mit bis zu 75 Personen in attraktiv sanierter historischer Umgebung feiern und tagen. Wir besprechen gerne Anlass und passende Gerichte und Getränke.
                 </p>
                 <Link to="/reservation1" className="btn btn_primary" data-aos="fade-up" data-aos-duration={1500} >
-                  BOOK EVENT NOW <i className="icofont-long-arrow-right" />
+                  Jetzt Buchen <i className="icofont-long-arrow-right" />
                 </Link>
               </div>
             </div>

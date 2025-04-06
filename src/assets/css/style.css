@@ -4633,3 +4633,6 @@ iframe#youtubevideo {
   background-repeat: no-repeat;
   background-position: bottom;
 }
+.red_color{
+  color:var(--primary-red)
+}

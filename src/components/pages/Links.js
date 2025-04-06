@@ -1,8 +1,17 @@
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import "../../assets/css/style.css";
 
 export default function Links() {
+  useEffect(() => {
+    AOS.init({ once: false });
+    AOS.refresh();
+  }, []);
+
   return (
-    <div style={{ display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center" }}>
+    <div className="index_wraper">
       <Helmet>
         <title>Links... mit Hof&Gut in Zusammenarbeit</title>
         <meta name="description" content="Mit Hof&Gut in Zusammenarbeit" />
@@ -10,30 +19,48 @@ export default function Links() {
         <meta name="fragment" content="!" />
       </Helmet>
 
-      <div style={{ backgroundColor: "#333", color: "white", padding: "15px", margin: "5px", maxWidth: "800px", width: "100%" }}>
-        <h2>Weitere interessante Links in Jesteburg und Umgebung:</h2>
-        <p>
-          Kunststätte Bossard: <a href="https://www.bossard.de/">https://www.bossard.de/</a><br />
-          Fotos von Verena Brockshus-Sprung: <a href="https://www.brockshus-sprung.de/">https://www.brockshus-sprung.de/</a><br />
-          Kunsthaus Jesteburg: <a href="https://www.kunsthaus-jesteburg.de/">https://www.kunsthaus-jesteburg.de/</a><br />
-          Kunstraum Schräg & Gut: <a href="https://www.schraegundgut.de/">https://www.schraegundgut.de/</a><br />
-          Physiotherapie Knupper-Papendorf & Vandersee: <a href="http://www.physio-jesteburg.de">www.physio-jesteburg.de</a><br />
-          Naturheilpraxis Wiehe: <a href="http://www.naturheilpraxis-wiehe.de">www.naturheilpraxis-wiehe.de</a><br />
-          Reiten mit Wohlgefühl: <a href="http://www.reiten-mit-wohlgefuehl.de">www.reiten-mit-wohlgefuehl.de</a><br />
-          Hamburger Land-und Golfclub Hittfeld: <a href="https://www.hlgc-hittfeld.de/">https://www.hlgc-hittfeld.de/</a><br />
-        </p>
-      </div>
+      <div className="row_inner_am who_we_section who_version_two light_texchur2 mt-5">
+        <div className="container mt-5">
+          {/* Titel */}
+          <div className="section_title text-center" data-aos="fade-up" data-aos-duration={1500}>
+            <span className="sub_text">Partner & Inspiration</span>
+            <h2>Links & Empfehlungen</h2>
+          </div>
 
-      <div style={{ backgroundColor: "#333", color: "white", padding: "15px", margin: "5px", maxWidth: "800px", width: "100%" }}>
-        <h2>Diese Unternehmen aus der Region & deutschlandweit beliefern uns mit Produkten für das Hofrestaurant:</h2>
-        <p>
-          Wir sind begeisterte Anhänger von “Bienenlustwelt” - Honig von diesen Künstlerinnen und aus unserem Ort gibt’s im Hofrestaurant:
-          <a href="http://www.bienenlustwelt.de/honig-aus-jesteburg/">www.bienenlustwelt.de/honig-aus-jesteburg/</a><br />
-          Wilkenshoff in Ochtmannsbruch: <a href="http://www.wilkenshoff.de">www.wilkenshoff.de</a><br />
-          Hof Wörme: <a href="http://www.hofwoerme.de">www.hofwoerme.de</a><br />
-          Arpshof: <a href="http://www.arpshof.de">www.arpshof.de</a><br />
-          Weingut Richard Schmidt, Kaiserstuhl, erster Biowinzer in Deutschland: <a href="https://www.schmidt-weingut.de/index.html">https://www.schmidt-weingut.de/index.html</a>
-        </p>
+          {/* Regionale Links */}
+          <div className="row mb-5" data-aos="fade-up" data-aos-duration={1500}>
+            <div className="col-12 bg-dark text-white p-4 radius_img">
+              <h3>Weitere interessante Links in Jesteburg und Umgebung:</h3>
+              <p>
+                <a href="https://www.bossard.de/" className="text-primary-red" target="_blank" rel="noopener noreferrer">Kunststätte Bossard</a><br />
+                <a href="https://www.brockshus-sprung.de/" className="text-primary-red" target="_blank" rel="noopener noreferrer">Verena Brockshus-Sprung (Fotografie)</a><br />
+                <a href="https://www.kunsthaus-jesteburg.de/" className="text-primary-red" target="_blank" rel="noopener noreferrer">Kunsthaus Jesteburg</a><br />
+                <a href="https://www.schraegundgut.de/" className="text-primary-red" target="_blank" rel="noopener noreferrer">Kunstraum Schräg & Gut</a><br />
+                <a href="http://www.physio-jesteburg.de" className="text-primary-red" target="_blank" rel="noopener noreferrer">Physiotherapie Knupper-Papendorf & Vandersee</a><br />
+                <a href="http://www.naturheilpraxis-wiehe.de" className="text-primary-red" target="_blank" rel="noopener noreferrer">Naturheilpraxis Wiehe</a><br />
+                <a href="http://www.reiten-mit-wohlgefuehl.de" className="text-primary-red" target="_blank" rel="noopener noreferrer">Reiten mit Wohlgefühl</a><br />
+                <a href="https://www.hlgc-hittfeld.de/" className="text-primary-red" target="_blank" rel="noopener noreferrer">Golfclub Hittfeld</a>
+              </p>
+            </div>
+          </div>
+
+          {/* Lieferanten */}
+          <div className="row" data-aos="fade-up" data-aos-duration={1500}>
+            <div className="col-12 bg-dark text-white p-4 radius_img">
+              <h3>Diese Unternehmen beliefern unser Hofrestaurant:</h3>
+              <p>
+                <a href="http://www.bienenlustwelt.de/honig-aus-jesteburg/" className="text-primary-red" target="_blank" rel="noopener noreferrer">
+                  Bienenlustwelt – Honig aus Jesteburg
+                </a><br />
+                <a href="http://www.wilkenshoff.de" className="text-primary-red" target="_blank" rel="noopener noreferrer">Wilkenshoff (Ochtmannsbruch)</a><br />
+                <a href="http://www.hofwoerme.de" className="text-primary-red" target="_blank" rel="noopener noreferrer">Hof Wörme</a><br />
+                <a href="http://www.arpshof.de" className="text-primary-red" target="_blank" rel="noopener noreferrer">Arpshof</a><br />
+                <a href="https://www.schmidt-weingut.de/index.html" className="text-primary-red" target="_blank" rel="noopener noreferrer">Weingut Richard Schmidt (Kaiserstuhl)</a>
+              </p>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
   );
