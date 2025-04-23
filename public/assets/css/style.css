@@ -1384,6 +1384,10 @@ header.fixed::before {
   object-fit: cover;
 }
 
+.who_we_sectio .rect_img {
+  border: var(--img-border) !important;
+}
+
 .who_we_section .who_We_text {
   padding-left: 75px;
 }

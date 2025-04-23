@@ -23,22 +23,26 @@ export default function Gebaeude() {
         <meta name="fragment" content="!" />
       </Helmet>
 
-      <div className="row_inner_am who_we_section who_version_two light_texchur2 mt-5">
+      <div className="who_we_section light_texchur2 mt-5">
         <div className="container mt-5">
-          <div className="section_title text-center" data-aos="fade-up" data-aos-duration={1500}>
+
+          {/* Titel */}
+          <div
+            className="section_title text-center mb-5"
+            data-aos="fade-up"
+            data-aos-duration={1500}
+          >
             <span className="sub_text">Unsere Gebäude</span>
             <h2>Historie & Moderne in Einklang</h2>
           </div>
 
-          {/* Bauernhaus früher */}
-          <div className="row mb-5" data-aos="fade-up" data-aos-duration={1500}>
-            <div className="col-12 text-center">
-              <img src={BauernhausAlt} alt="Foto Bauernhaus früher" className="img-fluid radius_img smaller_image mt-4" style={{ objectFit: 'cover', width: '100%' }} />
-            </div>
-          </div>
-
-          <div className="row mb-5" data-aos="fade-up" data-aos-duration={1500}>
-            <div className="col-12">
+          {/* 1. Abschnitt: Bauernhaus früher (Bild links, Text rechts) */}
+          <div
+            className="row mt-5 mb-5 align-items-center"
+            data-aos="fade-up"
+            data-aos-duration={1500}
+          >
+            <div className="col-12 col-md-6">
               <h3>Das Bauernhaus früher</h3>
               <p>
                 Die Hofstelle Itzenbütteler Sood 13 (Harmsbur) gehört zu den Hofstellen in Itzenbüttel, die auf das Mittelalter zurückgehen.
@@ -48,11 +52,23 @@ export default function Gebaeude() {
                 an die Kanalisation.
               </p>
             </div>
+            <div className="col-12 col-md-6 order-md-1 text-center">
+              <img
+                src={BauernhausAlt}
+                alt="Foto Bauernhaus früher"
+                className="img-fluid rect_img smaller_image mt-4"
+                style={{ objectFit: 'cover', width: '100%' }}
+              />
+            </div>
           </div>
 
-          {/* Bauernhaus heute */}
-          <div className="row mb-5" data-aos="fade-up" data-aos-duration={1500}>
-            <div className="col-12">
+          {/* 2. Abschnitt: Bauernhaus heute (Text links, Bild rechts) */}
+          <div
+            className="row mb-5 mt-5 align-items-center"
+            data-aos="fade-up"
+            data-aos-duration={1500}
+          >
+            <div className="col-12 col-md-6 order-md-2">
               <h3>Das Bauernhaus heute</h3>
               <p>
                 Im Jahr 2010 wurde das alte Bauernhaus auch im Inneren denkmalgerecht saniert und das historische Ständerwerk wiederhergestellt.
@@ -62,23 +78,38 @@ export default function Gebaeude() {
                 den historischen unterscheiden.
               </p>
             </div>
-          </div>
-
-          <div className="row mb-5" data-aos="fade-up" data-aos-duration={1500}>
-            <div className="col-12 text-center">
-              <img src={BauernhausNeu} alt="Foto Bauernhaus 2010" className="img-fluid radius_img smaller_image" style={{ height: '550px', width: '100%' }} />
+            <div className="col-12 col-md-6 order-md-1 text-center">
+              <img
+                src={BauernhausNeu}
+                alt="Foto Bauernhaus 2010"
+                className="img-fluid rect_img smaller_image"
+                style={{ objectFit: 'cover', height: '550px', width: '100%' }}
+              />
             </div>
           </div>
 
-          {/* Kinderhaus */}
-          <div className="row mb-5" data-aos="fade-up" data-aos-duration={1500}>
-            <div className="col-12 text-center">
-              <img src={Kinderhaus} alt="Foto vom Kinderhaus" className="img-fluid radius_img smaller_image" style={{ height: '650px', width: '100%' }} />
-              <p className="mt-3">
+          {/* 3. Abschnitt: Kinderhaus (Bild links, Text rechts) */}
+          <div
+            className="row mt-5 mb-5 align-items-center"
+            data-aos="fade-up"
+            data-aos-duration={1500}
+          >
+            <div className="col-12 col-md-6 order-md-1 text-center">
+
+            </div>
+            <div className="col-12 col-md-6 order-md-2">
+              <img
+                src={Kinderhaus}
+                alt="Foto vom Kinderhaus"
+                className="img-fluid rect_img smaller_image"
+                style={{ objectFit: 'cover', height: '650px', width: '100%' }}
+              />
+              <p className="mt-3 text-center">
                 Dies ist unser “Kinderhaus”, in dem die Reitkinder sich vor und nach dem Unterricht aufhalten können.
               </p>
             </div>
           </div>
+
         </div>
       </div>
     </div>

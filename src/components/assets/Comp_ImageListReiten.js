@@ -81,6 +81,16 @@ export default function ReitenCustomImageList() {
                 <img src={gallery5} alt="Kind mit Ponie" />
               </div>
             </div>
+            <div className="item">
+              <div className="img">
+                <img src={gallery5} alt="Kind mit Ponie" />
+              </div>
+            </div>
+            <div className="item">
+              <div className="img">
+                <img src={gallery5} alt="Kind mit Ponie" />
+              </div>
+            </div>
             {/* Du kannst hier beliebig oft durchrotieren */}
             <div className="item">
               <div className="img">

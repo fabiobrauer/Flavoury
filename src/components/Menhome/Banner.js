@@ -6,7 +6,8 @@ import Img03 from '../../assets/images/b_img_01.png'
 import Img06 from '../../assets/images/b_img_02.png'
 import Img09 from '../../assets/images/b_img_03.png'
 import img10 from '../../assets/images/BannerHomeMobile2.png'
-import img11 from '../../assets/images/BannerHomeMobile3.png'
+import img11 from '../../assets/images/BannerHomeMobile4.png'
+import img12 from '../../assets/images/BannerHomeMobile5.png'
 
 function Banner() {
   return (
@@ -18,7 +19,7 @@ function Banner() {
               Willkommen bei<br /> Hof&Gut Jesteburg
             </h1>
             <div className="banner_images ">
-              <div className="img disable_mobile" data-speed={100}>
+{/*               <div className="img disable_mobile" data-speed={100}>
                 <img className="radius_img" src={Img03} alt="img" />
               </div>
               <div className="img disable_mobile" data-speed={100}>
@@ -26,17 +27,21 @@ function Banner() {
               </div>
               <div className="img disable_mobile" data-speed={100}>
                 <img className="radius_img" src={Img09} alt="img" />
-              </div>
+              </div> */}
               
               <div className='container'>
-                <div className='mobile_active row mobile_Off'>
-                  <div className="img_mobile col-xs-12" data-speed={100}>
+                <div className='row'>
+                  <div className="img_mobile disable_mobile" data-speed={100}>
                     <img src={img11} alt="img" className='img-fluid' />
                   </div>
-                </div>              
+                </div>  
+                <div className='mobile_active row mobile_Off'>
+                  <div className="img_mobile col-xs-12" data-speed={100}>
+                    <img src={img12} alt="img" className='img-fluid' />
+                  </div>
+                </div>  
+
               </div>
-
-
             </div>
           </div>
         </div>

@@ -260,14 +260,15 @@ function WhoWeZimmer() {
                         <br />
                         <a href='tel:04181 9199500'>04181 9199500</a> oder <a href='tel:0176 070671532'>0176 070671532</a>
                     </p>
-                </div>
-                <div className='col-xs-12 col-md-6'>
-                <p>
+                    <p>
                     Das Team von Hof & Gut wünscht eine geruhsame Nacht unterm Reetdach und ländliche Träume!
                     <br />
                     <b>Reservierungen per E-Mail an:</b>{" "}
                     <a href="mailto:info@hof-und-gut.de" className="text-primary-red">info@hof-und-gut.de</a>
                 </p>
+                </div>
+                <div className='col-xs-12 col-md-6'>
+
                 </div>
             </div>
             <div className='row'>
@@ -276,31 +277,19 @@ function WhoWeZimmer() {
                         <p>
                             DZ 110 € | EZ 95 € | Apartment für 2 Personen 150 € | Apartment für 3 Personen 175 € | Apartment für 4 Personen 200 € | Zustellbett für ein Kind 25 €
                         </p>
+                        <h2>Hof-Frühstück</h2>
+                        <p>
+                            Das Frühstück wird für unsere Hausgäste von 8 – 10:00 Uhr serviert.
+                            <br />
+                            Frühstück: 14.50 € p. P | Kinderfrühstück (3 – 7 Jahre) 8,00 € p.P.
+                        </p>
                 </div>
                 <div className='col-xs-12 col-md-6'>
-                <h2>Hof-Frühstück</h2>
-          <p>
-            Das Frühstück wird für unsere Hausgäste von 8 – 10:00 Uhr serviert.
-            <br />
-            Frühstück: 14.50 € p. P | Kinderfrühstück (3 – 7 Jahre) 8,00 € p.P.
-          </p>
-            <img src={gallery9} alt="img" className='smaller_image'/>
+
+            <img src={gallery9} alt="img" className='smaller_image rect_img'/>
                 </div>
             </div>
-            <div className='row'>
-                <div className='col-xs-12 col-md-6'>
-                    <div>
-                        <h2>Ferienwohnung</h2>
-                        {/* Inhalte hier einfügen */}
-                    </div>
-                </div>
-                <div className='col-12'>
-                    <div>
-                        <h2>Zimmer</h2>
-                        {/* Inhalte hier einfügen */}
-                    </div>
-                </div>
-            </div>
+
 
 
 

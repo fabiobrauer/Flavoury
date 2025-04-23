@@ -24,7 +24,6 @@ import Presse from '../components/pages/Presse';
 import Reiten from '../components/pages/Reiten';
 import SpeisenAmHof from '../components/pages/SpeisenAmHof';
 import Stellenangebote from '../components/pages/Stellenangebote';
-import TeamtrainingUndFirmenevents from '../components/pages/TeamtrainingUndFirmenevents';
 import VeranstaltungenKunstKultur from '../components/pages/VeranstaltungenKunstKultur';
 import OekologischeLandwirtschaft from '../components/pages/ÖkologischeLandwirtschaft';
 import UebernachtenAmHof from '../components/pages/ÜbernachtenAmHof';
@@ -61,7 +60,6 @@ function Index() {
         <Route path="/reiten" element={<Reiten />} />
         <Route path="/speisenamHof" element={<SpeisenAmHof />} />
         <Route path="/stellenangebote" element={<Stellenangebote />} />
-        <Route path="/teamtrainingundfirmenevents" element={<TeamtrainingUndFirmenevents />} />
         <Route path="/veranstaltungenkunstKultur" element={<VeranstaltungenKunstKultur />} />
         <Route path="/oekologischelandwirtschaft" element={<OekologischeLandwirtschaft />} />
         <Route path="/uebernachtenamhof" element={<UebernachtenAmHof />} />

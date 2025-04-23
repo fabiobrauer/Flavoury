@@ -23,32 +23,52 @@ export default function Presse() {
         <meta name="fragment" content="!" />
       </Helmet>
 
-      <div className="row_inner_am who_we_section who_version_two light_texchur2 mt-5">
+      <div className="who_we_section light_texchur2 mt-5">
         <div className="container mt-5">
 
           {/* Titel */}
-          <div className="section_title text-center" data-aos="fade-up" data-aos-duration={1500}>
+          <div
+            className="section_title text-center mb-5"
+            data-aos="fade-up"
+            data-aos-duration={1500}
+          >
             <span className="sub_text">Berichterstattung</span>
             <h2>Hof & Gut in der Presse</h2>
           </div>
 
-          {/* Zeitungsbild 1 */}
-          <div className="row mb-5" data-aos="fade-up" data-aos-duration={1500}>
-            <div className="col-12 text-center">
-              <img src={Zeitung4} alt="Zeitungsartikel" className="img-fluid radius_img smaller_image" />
+          {/* 1. Abschnitt: Zeitung4 (Bild links) */}
+          <div
+            className="row mb-5 mt-5 align-items-center"
+            data-aos="fade-up"
+            data-aos-duration={1500}
+          >
+            <div className="col-12 col-md-6 order-md-2 text-center">
+              <img
+                src={Zeitung4}
+                alt="Zeitungsartikel"
+                className="img-fluid rect_img"
+              />
             </div>
+            <div className="col-12 col-md-6 order-md-1" />
           </div>
 
-          {/* Zeitungsbild 2 */}
-          <div className="row mb-5" data-aos="fade-up" data-aos-duration={1500}>
-            <div className="col-12 text-center">
-              <img src={Zeitung1} alt="Bauernhaus Artikel" className="img-fluid radius_img smaller_image" style={{ maxHeight: "770px" }} />
-            </div>
-          </div>
 
-          {/* Textblock */}
-          <div className="row mb-5" data-aos="fade-up" data-aos-duration={1500}>
-            <div className="col-12 bg-dark text-white p-4 radius_img">
+
+          {/* 3. Abschnitt: Textblock (Text links) */}
+          <div
+            className="row mb-5 mt-5 align-items-center"
+            data-aos="fade-up"
+            data-aos-duration={1500}
+          >
+            <div className="col-12 col-md-6 display-flex flex-direction-column">
+              <img
+                src={Schleppjagd}
+                alt="Schleppjagd"
+                className="img-fluid rect_img mb-3"
+              />
+              <p>
+                Der Hamburger Schleppjagdverein veranstaltet regelmäßig beeindruckende Schleppjagden bei Hof & Gut.
+              </p>
               <h3>Hof & Gut im Hamburger Abendblatt</h3>
               <p>
                 Dass in Itzenbüttel Feuer im Kamin brennt, ist Johanna Coleman und Axel Brauer zu verdanken. Auf einer
@@ -63,22 +83,24 @@ export default function Presse() {
                 Innenleben wurde saniert, bis zum vorläufigen Höhepunkt der Hofgeschichte: die Eröffnung des Restaurants Stub’n im
                 Herbst vorigen Jahres.
               </p>
-              <p>
-                <a href="#" className="text-primary-red">Artikel im Abendblatt</a>
-              </p>
             </div>
           </div>
-
-          {/* Schleppjagd */}
-          <div className="row" data-aos="fade-up" data-aos-duration={1500}>
-            <div className="col-12 bg-dark text-white p-4 radius_img">
-              <img src={Schleppjagd} alt="Schleppjagd" className="img-fluid radius_img mb-3" />
-              <p>
-                Der Hamburger Schleppjagdverein veranstaltet regelmäßig beeindruckende Schleppjagden bei Hof & Gut.
-              </p>
+                    {/* 2. Abschnitt: Zeitung1 (Bild rechts) */}
+          <div
+            className="row mb-5 mt-5 align-items-center"
+            data-aos="fade-up"
+            data-aos-duration={1500}
+          >
+            <div className="col-12 col-md-6 order-md-1" />
+            <div className="col-12 col-md-6 order-md-2 text-center">
+              <img
+                src={Zeitung1}
+                alt="Bauernhaus Artikel"
+                className="img-fluid rect_img"
+                style={{ maxHeight: "770px" }}
+              />
             </div>
           </div>
-
         </div>
       </div>
     </div>

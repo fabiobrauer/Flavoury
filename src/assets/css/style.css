@@ -205,7 +205,7 @@ button:focus,
 }
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1400px;
+    max-width: 1900px;
   }
 }
 
@@ -2157,6 +2157,10 @@ iframe#youtubevideo {
 .chef_section .chef_img .radius_img {
   border: var(--img-border);
   border-radius: 100% 100% 0 0;
+}
+.rect_img {
+  border: var(--img-border) !important;
+  border-radius: 40px 40px 40px 40px;
 }
 
 .chef_section .abt_chef {

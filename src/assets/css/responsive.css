@@ -160,18 +160,35 @@
 }
 
 @media screen and (max-width:1200px) {
-                /* mobile */
-                .mobile_active{
-                    display: block;
-                }
-                .disable_mobile{
-                    display: none !important;
-                }
-                .img_mobile{
-                    width: 100% !important;
-                    height: auto;
-                    display: block;
-                }
+
+/* move image */
+.move_left{
+    transform: translateX(0);
+  }
+  .move_left2{
+    transform: translateX(0);
+  }
+  .move_right{
+    transform: translateX(0);
+  }
+  .move_right2{
+    transform: translateX(0);
+  }
+  .move_up_left{
+    transform: translate3d(0,0,0);
+  }
+  .move_down_right{
+    transform: translate3d(0,0,0);
+  }
+  .move_down_left{
+    transform: translate3d(0,0,0);
+  }
+  .move_down{
+    transform: translateY(0);
+  }
+  .move_up{
+    transform: translateY(0);
+  }
 
     .row_am {
         padding: 50px 0;
@@ -900,6 +917,18 @@
 }
 
 @media screen and (max-width:767px) {
+                    /* mobile */
+                    .mobile_active{
+                        display: block;
+                    }
+                    .disable_mobile{
+                        display: none !important;
+                    }
+                    .img_mobile{
+                        width: 100% !important;
+                        height: auto;
+                        display: block;
+                    }
 
     :root {
         --img-border: 3px solid #696969;

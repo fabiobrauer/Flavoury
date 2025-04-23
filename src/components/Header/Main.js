@@ -80,7 +80,6 @@ function Main() {
                       <li><Link to="/oekologischeLandwirtschaft" onClick={handleMenuItemClick}>Ökologische Landwirtschaft</Link></li>
                       <li><Link to="/Links" onClick={handleMenuItemClick}>Partner & Links</Link></li>
                       <li><Link to="/Presse" onClick={handleMenuItemClick}>Presse</Link></li>
-                      <li><Link to="/TeamtrainingUndFirmenevents" onClick={handleMenuItemClick}>Teamtraining & Firmenevents</Link></li>
                       <li><Link to="/VeranstaltungenKunstKultur" onClick={handleMenuItemClick}>Veranstaltung Kunst & Kultur</Link></li>
                     </ul>
                   </div>
