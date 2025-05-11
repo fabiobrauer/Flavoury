@@ -26,7 +26,7 @@ function Main() {
                   Mo - Fr : 17 - 22 Uhr <br />
                   Sa - So : 12 - 22 Uhr
                 </p>
-                <Link to="/kontakt" className="btn btn_primary mt-3" id="bookingForm_modelTitle" data-toggle="modal" data-target="#bookingForm_model" onClick={() => setytShow(true)}>
+                <Link to="/" className="btn btn_primary mt-3" id="bookingForm_modelTitle" data-toggle="modal" data-target="#bookingForm_model" onClick={() => setytShow(true)}>
                   einen Tisch Buchen
                 </Link>
               </div>
