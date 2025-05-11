@@ -18,7 +18,7 @@ const Weslider = {
         {
             breakpoint: 600,
             settings: {
-                slidesToShow: 10,
+                slidesToShow: 9,
                 speed: 1000,
                 easing: "linear"
             },
@@ -26,7 +26,7 @@ const Weslider = {
         {
             breakpoint: 1000,
             settings: {
-                slidesToShow: 10,
+                slidesToShow: 9,
                 speed: 1000,
                 easing: "linear"
             },
@@ -51,125 +51,125 @@ function WhoWe() {
                     </div>
                 </div>
                 <div className="gallery_slider">
-                    <Slider className="Slider-Who" id="gallery_flow_right" data-aos="fade-in" data-aos-duration={1500} {...Weslider} slidesToShow={11.5} arrows={false} autoplay={true} autoplaySpeed={10000} easing='linear'>
-                        <div className="item">
+                    <Slider className="Slider-Who mb-3" id="gallery_flow_right" data-aos="fade-in" data-aos-duration={1500} {...Weslider} slidesToShow={11.5} arrows={false} autoplay={true} autoplaySpeed={10000} easing='linear'>
+                        <div className="item d-flex justify-content-center">
                             <div className="img">
                                 <img src={gallery1} alt="img" />
                             </div>
                         </div>
-                        <div className="item">
+                        <div className="item d-flex justify-content-center">
                             <div className="img">
                                 <img src={gallery2} alt="img" />
                             </div>
                         </div>
-                        <div className="item">
+                        <div className="item d-flex justify-content-center">
                             <div className="img">
                                 <img src={gallery3} alt="img" />
                             </div>
                         </div>
-                        <div className="item">
+                        <div className="item d-flex justify-content-center">
                             <div className="img">
                                 <img src={gallery4} alt="img" />
                             </div>
                         </div>
-                        <div className="item">
+                        <div className="item d-flex justify-content-center">
                             <div className="img">
                                 <img src={gallery1} alt="img" />
                             </div>
                         </div>
-                        <div className="item">
+                        <div className="item d-flex justify-content-center">
                             <div className="img">
                                 <img src={gallery2} alt="img" />
                             </div>
                         </div>
-                        <div className="item">
+                        <div className="item d-flex justify-content-center">
                             <div className="img">
                                 <img src={gallery3} alt="img" />
                             </div>
                         </div>
-                        <div className="item">
+                        <div className="item d-flex justify-content-center">
                             <div className="img">
                                 <img src={gallery4} alt="img" />
                             </div>
                         </div>
-                        <div className="item">
+                        <div className="item d-flex justify-content-center">
                             <div className="img">
                                 <img src={gallery1} alt="img" />
                             </div>
                         </div>
-                        <div className="item">
+                        <div className="item d-flex justify-content-center">
                             <div className="img">
                                 <img src={gallery2} alt="img" />
                             </div>
                         </div>
-                        <div className="item">
+                        <div className="item d-flex justify-content-center">
                             <div className="img">
                                 <img src={gallery3} alt="img" />
                             </div>
                         </div>
-                        <div className="item">
+                        <div className="item d-flex justify-content-center">
                             <div className="img">
                                 <img src={gallery4} alt="img" />
                             </div>
                         </div>
                     </Slider>
                     <Slider className="Slider-Who" id="gallery_flow_left" data-aos="fade-in" data-aos-duration={1500} {...Weslider} rtl={true} slidesToShow={11.5} arrows={false} autoplay={true} autoplaySpeed={10000} easing='linear' >
-                        <div className="item">
+                        <div className="item d-flex justify-content-center">
                             <div className="img">
                                 <img src={gallery5} alt="img" />
                             </div>
                         </div>
-                        <div className="item">
+                        <div className="item d-flex justify-content-center">
                             <div className="img">
                                 <img src={gallery6} alt="img" />
                             </div>
                         </div>
-                        <div className="item">
+                        <div className="item d-flex justify-content-center">
                             <div className="img">
                                 <img src={gallery7} alt="img" />
                             </div>
                         </div>
-                        <div className="item">
+                        <div className="item d-flex justify-content-center">
                             <div className="img">
                                 <img src={gallery8} alt="img" />
                             </div>
                         </div>
-                        <div className="item">
+                        <div className="item d-flex justify-content-center">
                             <div className="img">
                                 <img src={gallery5} alt="img" />
                             </div>
                         </div>
-                        <div className="item">
+                        <div className="item d-flex justify-content-center">
                             <div className="img">
                                 <img src={gallery6} alt="img" />
                             </div>
                         </div>
-                        <div className="item">
+                        <div className="item d-flex justify-content-center">
                             <div className="img">
                                 <img src={gallery7} alt="img" />
                             </div>
                         </div>
-                        <div className="item">
+                        <div className="item d-flex justify-content-center">
                             <div className="img">
                                 <img src={gallery8} alt="img" />
                             </div>
                         </div>
-                        <div className="item">
+                        <div className="item d-flex justify-content-center">
                             <div className="img">
                                 <img src={gallery5} alt="img" />
                             </div>
                         </div>
-                        <div className="item">
+                        <div className="item d-flex justify-content-center">
                             <div className="img">
                                 <img src={gallery6} alt="img" />
                             </div>
                         </div>
-                        <div className="item">
+                        <div className="item d-flex justify-content-center">
                             <div className="img">
                                 <img src={gallery7} alt="img" />
                             </div>
                         </div>
-                        <div className="item">
+                        <div className="item d-flex justify-content-center">
                             <div className="img">
                                 <img src={gallery8} alt="img" />
                             </div>

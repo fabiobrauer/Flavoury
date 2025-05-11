@@ -18,8 +18,8 @@ const Whoslider = {
     {
       breakpoint: 600,
       settings: {
-        slidesToShow: 10,
-        autoplaySpeed: 2000,
+        slidesToShow: 9,
+        autoplaySpeed: 3000,
         easing: "linear"
       },
     },
@@ -27,7 +27,7 @@ const Whoslider = {
       breakpoint: 1000,
       settings: {
         slidesToShow: 5,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 3000,
         easing: "linear"
       },
     },
@@ -80,7 +80,7 @@ function WhoWe() {
                     </li>
                   </ul>
                   <Link to="/kontakt" className="btn btn_primary">
-                    Get direction <i className="icofont-location-pin" />
+                    Wegbeschreibung <i className="icofont-location-pin" />
                   </Link>
                 </div>
               </div>
@@ -88,125 +88,125 @@ function WhoWe() {
           </div>
         </div>
         <div className="gallery_direction_right gallery_slider">
-          <Slider className="Slider-Who" {...Whoslider} id="gallery_flow_right" data-aos="fade-in" data-aos-duration={1500} slidesToShow={11.5} arrows={false} autoplay={true} autoplaySpeed={7000}>
-            <div className="item">
+          <Slider className="Slider-Who mb-3" {...Whoslider} id="gallery_flow_right" data-aos="fade-in" data-aos-duration={1500} slidesToShow={11.5} arrows={false} autoplay={true} autoplaySpeed={7000}>
+            <div className="item d-flex justify-content-center">
               <div className="img">
                 <img src={gallery01} alt="img" />
               </div>
             </div>
-            <div className="item">
+            <div className="item d-flex justify-content-center">
               <div className="img">
                 <img src={gallery02} alt="img" />
               </div>
             </div>
-            <div className="item">
+            <div className="item d-flex justify-content-center">
               <div className="img">
                 <img src={gallery03} alt="img" />
               </div>
             </div>
-            <div className="item">
+            <div className="item d-flex justify-content-center">
               <div className="img">
                 <img src={gallery04} alt="img" />
               </div>
             </div>
-            <div className="item">
+            <div className="item d-flex justify-content-center">
               <div className="img">
                 <img src={gallery01} alt="img" />
               </div>
             </div>
-            <div className="item">
+            <div className="item d-flex justify-content-center">
               <div className="img">
                 <img src={gallery02} alt="img" />
               </div>
             </div>
-            <div className="item">
+            <div className="item d-flex justify-content-center">
               <div className="img">
                 <img src={gallery03} alt="img" />
               </div>
             </div>
-            <div className="item">
+            <div className="item d-flex justify-content-center">
               <div className="img">
                 <img src={gallery04} alt="img" />
               </div>
             </div>
-            <div className="item">
+            <div className="item d-flex justify-content-center">
               <div className="img">
                 <img src={gallery01} alt="img" />
               </div>
             </div>
-            <div className="item">
+            <div className="item d-flex justify-content-center">
               <div className="img">
                 <img src={gallery02} alt="img" />
               </div>
             </div>
-            <div className="item">
+            <div className="item d-flex justify-content-center">
               <div className="img">
                 <img src={gallery03} alt="img" />
               </div>
             </div>
-            <div className="item">
+            <div className="item d-flex justify-content-center">
               <div className="img">
                 <img src={gallery04} alt="img" />
               </div>
             </div>
           </Slider>
           <Slider className='Slider-Who'{...Whoslider} id="gallery_flow_left" data-aos="fade-in" data-aos-duration={1500}  rtl={true} slidesToShow={11.5} arrows={false} autoplay={true} autoplaySpeed={7000} >
-            <div className="item">
+            <div className="item d-flex justify-content-center">
               <div className="img">
                 <img src={gallery05} alt="img" />
               </div>
             </div>
-            <div className="item">
+            <div className="item d-flex justify-content-center">
               <div className="img">
                 <img src={gallery06} alt="img" />
               </div>
             </div>
-            <div className="item">
+            <div className="item d-flex justify-content-center">
               <div className="img">
                 <img src={gallery07} alt="img" />
               </div>
             </div>
-            <div className="item">
+            <div className="item d-flex justify-content-center">
               <div className="img">
                 <img src={gallery08} alt="img" />
               </div>
             </div>
-            <div className="item">
+            <div className="item d-flex justify-content-center">
               <div className="img">
                 <img src={gallery05} alt="img" />
               </div>
             </div>
-            <div className="item">
+            <div className="item d-flex justify-content-center">
               <div className="img">
                 <img src={gallery06} alt="img" />
               </div>
             </div>
-            <div className="item">
+            <div className="item d-flex justify-content-center">
               <div className="img">
                 <img src={gallery07} alt="img" />
               </div>
             </div>
-            <div className="item">
+            <div className="item d-flex justify-content-center">
               <div className="img">
                 <img src={gallery08} alt="img" />
               </div>
             </div>
-            <div className="item">
+            <div className="item d-flex justify-content-center">
               <div className="img">
                 <img src={gallery05} alt="img" />
               </div>
             </div>
-            <div className="item">
+            <div className="item d-flex justify-content-center">
               <div className="img">
                 <img src={gallery06} alt="img" />
               </div>
             </div>
-            <div className="item">
+            <div className="item d-flex justify-content-center">
               <div className="img">
                 <img src={gallery07} alt="img" />
               </div>
             </div>
-            <div className="item">
+            <div className="item d-flex justify-content-center">
               <div className="img">
                 <img src={gallery08} alt="img" />
               </div>
