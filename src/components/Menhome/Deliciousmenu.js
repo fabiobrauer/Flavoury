@@ -41,10 +41,10 @@ function Deliciousmenu() {
           </div>
           <div className="menu_listing row_am">
             <div className="menu_listing_block" data-aos="fade-up" data-aos-duration={1500} >
-              <div className="diplay_state">
-                <div className="menu_name">
-                  <h3 className="makeLinkWhite"><a href="https://cdn.shopify.com/s/files/1/0756/4568/2002/files/HuG_Karte-6.pdf?v=1735919750">Speisekarte</a></h3>
-                </div>
+              <div className="d-flex flex-column align-items-center">
+
+                  <h3 className="makeLinkWhite text-center mb-4"><a href="https://cdn.shopify.com/s/files/1/0756/4568/2002/files/HuG_Karte-6.pdf?v=1735919750">Speisekarte</a></h3>
+
 {/* Slider falls ich den mal brauche
 
                 <div className="list_running"> 
@@ -76,7 +76,7 @@ function Deliciousmenu() {
                     </div>
                   </Slider>
                 </div> */}
-                <iframe src="https://cdn.shopify.com/s/files/1/0756/4568/2002/files/HuG_Karte-6.pdf?v=1735919750" width="800" height="800"></iframe>
+                <iframe src="https://cdn.shopify.com/s/files/1/0756/4568/2002/files/HuG_Karte-6.pdf?v=1735919750" width="90%" height="400"></iframe>
               </div>
 {/*               <div className="hover_state">
                 <div className="menu_img">
