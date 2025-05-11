@@ -81,16 +81,15 @@ function Main() {
         <div className="modal fade booking_model show" id="bookingForm_model" tabIndex={-1} aria-labelledby="bookingForm_modelTitle" style={{ display: "block", paddingRight: 17 }} aria-modal="true" role="dialog" >
           <div className="modal-dialog modal-dialog-centered" role="document">
             <div className="modal-content">
-              <div className="modal-header text-center border-0 d-block p-0">
+              <div className="text-center border-0 d-block p-0">
                 <button type="button" className="close" data-dismiss="modal" aria-label="Close" onClick={() => setytShow(false)}>
                   <span aria-hidden="true">
                     <i className="icofont-close-line" />
                   </span>
                 </button>
-                <h2 className="mb-2">Online Reservation</h2>
+                <h2 className="mb-2 text">Online Reservieren</h2>
                 <p>
-                  Booking request <a href="tel:+88123123456">+88-123-123456</a> or fill
-                  out the order form
+                  Rufen Sie uns an<a href="tel:+494181 9199500">+494181 9199500</a> oder schreiben Sie eine E-Mail
                 </p>
               </div>
               <div className="modal-body">
@@ -99,12 +98,12 @@ function Main() {
                     <div className="row">
                       <div className="col-md-6">
                         <div className="form-group">
-                          <input type="text" className="form-control" placeholder="Your Name" />
+                          <input type="text" name="name" className="form-control" placeholder="Name" />
                         </div>
                       </div>
                       <div className="col-md-6">
                         <div className="form-group">
-                          <input type="text" className="form-control" placeholder="Phone Number" />
+                          <input type="text" name="phone" className="form-control" placeholder="Nummer" />
                         </div>
                       </div>
                       <div className="col-md-4">
@@ -112,7 +111,7 @@ function Main() {
                           <span className="icon">
                             <i className="icofont-user-alt-7" />
                           </span>
-                          <input type="text" className="form-control has_icon" placeholder="1 Person" />
+                          <input type="text" name="persons" className="form-control has_icon" placeholder="1 Person" />
                         </div>
                       </div>
                       <div className="col-md-4">
@@ -120,7 +119,7 @@ function Main() {
                           <span className="icon">
                             <i className="icofont-calendar" />
                           </span>
-                          <input type="date" className="form-control  flex-row-reverse" />
+                          <input type="date" name="date" className="form-control  flex-row-reverse" />
                         </div>
                       </div>
                       <div className="col-md-4">
@@ -128,7 +127,7 @@ function Main() {
                           <span className="icon">
                             <i className="icofont-clock-time" />
                           </span>
-                          <input type="time" className="form-control has_icon  flex-row-reverse pl-0"
+                          <input type="time" name="time" className="form-control has_icon  flex-row-reverse pl-0"
                           />
                         </div>
                       </div>
@@ -136,13 +135,13 @@ function Main() {
                         <div className="form-group">
                           <textarea
                             className="form-control"
-                            placeholder="Message"
+                            placeholder="Nachricht"
                             defaultValue={""}
                           />
                         </div>
                       </div>
                       <div className="col-md-12">
-                        <button className="btn btn_primary w-100 ">book a table</button>
+                        <button className="btn btn_primary w-100 ">Absenden</button>
                       </div>
                     </div>
                   </form>

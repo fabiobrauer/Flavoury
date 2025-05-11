@@ -7,7 +7,7 @@ import VideoTwo from '../MenHomeTwo/VideoTwo' */
 import MenuSection from '../MenHomeTwo/MenuSection'
 import DiscountSection from '../MenHomeTwo/DiscountSection'
 import WhoWe from '../MenHomeTwo/WhoWe'
-/* import Testimonial from '../MenHomeTwo/Testimonial' */
+import Testimonial from '../MenHomeTwo/Testimonial'
 import OurTeam from '../MenHomeTwo/OurTeam'
 import Reservation from '../MenHomeTwo/Reservation'
 /* import Blog from '../MenHomeTwo/Blog' */
@@ -39,10 +39,10 @@ function Main() {
         <WhoWe />
 {/*         <OurTeam /> */}
         <Reservation />
-{/* Instagram embed maybe         <Blog /> */}
-        {/*         <div className='testom'>
+      {/*  <Blog />  */}
+       <div className='testom'>
         <Testimonial />
-        </div> */}
+        </div> 
 
       </div>
     </>

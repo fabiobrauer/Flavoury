@@ -1886,7 +1886,7 @@ footer .copy_right a {
 }
 
 .booking_model .modal-dialog .modal-content {
-  background-image: url(../images/banner_bg.png);
+  background-image: url(../images/dark_bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 60px;
@@ -1901,6 +1901,7 @@ footer .copy_right a {
   font-size: 40px;
   margin: 0;
   padding: 5px;
+  color: white;
 }
 
 .booking_model .modal-header h2 {
@@ -2379,6 +2380,9 @@ iframe#youtubevideo {
 .lb-data .lb-close {
   background: url(../images/close.png);
   background-size: contain;
+}
+.icofont-close-line{
+  color: white;
 }
 
 #lightbox {

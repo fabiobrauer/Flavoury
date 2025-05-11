@@ -6,7 +6,7 @@ function Reservation() {
         <>
             <section className="resarvation_form rform_bg">
                 <div className="container">
-                    <div className="form_inner" data-aos="fade-in" data-aos-duration={1500} data-aos-delay={150} >
+                    <div className="form_inner" data-aos="fade-up"  data-aos-duration={1500}>
                         <div className="formBlock">
                             <div className="text-center">
                                 <h2 className="mb-2">Online Reservieren</h2>
