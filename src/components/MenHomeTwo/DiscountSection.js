@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import DishImg from '../../assets/images/discount_dish.png'
 import DishImg01 from '../../assets/images/Buffet1.jpeg'
-import DishImg02 from '../../assets/images/Buffet2.jpeg'
+import DishImg02 from '../../assets/images/FeierDiele.jpg'
 import DishImg03 from '../../assets/images/Vorspeiseplatte.jpeg'
 
 function DiscountSection() {
@@ -10,8 +10,8 @@ function DiscountSection() {
         <>
             <section className="discount_section bg_white_textcher row_inner_am">
                 <div className="container">
-                    <div className="section_title text-center" data-30-top="position: sticky;"
-                        data-aos="fade-up" data-aos-duration={1500} style={{ position: "sticky" }}>
+                    <div className="section_title text-center"             data-aos="fade-up"
+            data-aos-duration={1500}>
                         <span className="sub_text">Buchen Sie unser Abiente</span>
                         <h2>Sie können auch auf unserer Diele mit bis zu 75 Personen in attraktiven historischem Ambiente feiern und tagen.</h2>
                     </div>
@@ -54,7 +54,7 @@ function DiscountSection() {
                                     </div>
                                 </div>
                                 <div className="dish_img">
-                                    <img src={DishImg01} alt="img" />
+                                    <img src={DishImg02} alt="img" />
                                 </div>
                             </div>
                         </div>

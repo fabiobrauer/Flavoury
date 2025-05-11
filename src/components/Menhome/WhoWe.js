@@ -79,7 +79,7 @@ function WhoWe() {
                       </Link>
                     </li>
                   </ul>
-                  <Link to="/contact" className="btn btn_primary">
+                  <Link to="/kontakt" className="btn btn_primary">
                     Get direction <i className="icofont-location-pin" />
                   </Link>
                 </div>

@@ -17,8 +17,8 @@ function Main() {
                   Jesteburg 21266<br />
                   Restaurant + Hotel : <Link to="tel:+49 4181 9199500">+49 4181 9199500</Link>
                 </p>
-                <Link to="/contact" className="btn_text">
-                  get direction <i className="icofont-long-arrow-right" />
+                <Link to="/kontakt" className="btn_text">
+                  wegbeschreibung <i className="icofont-long-arrow-right" />
                 </Link>
               </div>
               <div className="col-md-5 text-md-right timing_block">
@@ -26,7 +26,7 @@ function Main() {
                   Mo - Fr : 17 - 22 Uhr <br />
                   Sa - So : 12 - 22 Uhr
                 </p>
-                <Link to="#" className="btn btn_primary mt-3" id="bookingForm_modelTitle" data-toggle="modal" data-target="#bookingForm_model" onClick={() => setytShow(true)}>
+                <Link to="/kontakt" className="btn btn_primary mt-3" id="bookingForm_modelTitle" data-toggle="modal" data-target="#bookingForm_model" onClick={() => setytShow(true)}>
                   einen Tisch Buchen
                 </Link>
               </div>
@@ -60,40 +60,16 @@ function Main() {
                     <Link to="/">Home</Link>
                   </li>
                   <li>
-                    <Link to="/menulist1">Menu 1</Link>
+                    <Link to="/UeberUns">Über Uns</Link>
                   </li>
                   <li>
-                    <Link to="/menulist2">Menu 2</Link>
-                  </li>
-                  <li>
-                    <Link to="/menulist3">Menu 3</Link>
-                  </li>
-                  <li>
-                    <Link to="/about">About us</Link>
-                  </li>
-                  <li>
-                    <Link to="/ourchef">Our chefs</Link>
-                  </li>
-                  <li>
-                    <Link to="/bloglist">Blog</Link>
-                  </li>
-                  <li>
-                    <Link to="/contact">Contact</Link>
+                    <Link to="/kontakt">Kontakt</Link>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div className="row">
-            <div className="col-md-12 copy_right text-center">
-              <p>
-                © 2023 Restaurant. All Rights Reserved | Crafted by{" "}
-                <Link to="https://themeforest.net/user/kalanidhithemes" target="blog-list" >
-                  Kalanidhi Themes
-                </Link>
-              </p>
-            </div>
-          </div>
+
         </div>
         <div className="go_top" id="Gotop">
           <span>

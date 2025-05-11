@@ -9,11 +9,12 @@ import gallery5 from '../../assets/images/Zimmer2.jpg'
 import gallery6 from '../../assets/images/Zimmer2_1.jpg'
 import gallery7 from '../../assets/images/Zimmer2_2.jpg'
 import gallery8 from '../../assets/images/Zimmer2_3.jpg'
-import gallery9 from '../../assets/images/Frühstück.jpg'
+import gallery9 from '../../assets/images/Espresso2.jpg'
 import gallery10 from '../../assets/images/Ferienwohnung1.jpg'
 import gallery11 from '../../assets/images/Ferienwohnung2.jpg'
 import gallery12 from '../../assets/images/Ferienwohnung3.jpg'
 import gallery13 from '../../assets/images/Ferienwohnung4.jpg'
+import gallery14 from '../../assets/images/thumbnail_IMG-20180220-WA0001.jpg'
 import '../../assets/css/style.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -271,6 +272,17 @@ function WhoWeZimmer() {
 
                 </div>
             </div>
+            <div className="container mb-5">
+                    <div className="section_title text-center" data-aos="fade2-up" data-aos-duration={1500} >
+                    <span className="sub_text">Unsere Ferienwohnung</span>
+                    <h2>
+                        Fühlen Sie sich wie Zuhause
+                    </h2>
+                    </div>
+            </div>
+                <div className="img mb-5">
+                    <img src={gallery14} className="img-fluid" alt="img" />
+                </div>
             <div className='row'>
                 <div className='col-xs-12 col-md-6'>
                         <h2>Preise</h2>

@@ -36,7 +36,7 @@ function OurTeam() {
                             <div className="item">
                                 <div className="team_card">
                                     <div className="img">
-                                        <img src={Team02} alt="img" />
+                                        <img src={Team02}  alt="img" />
                                     </div>
                                     <div className="info">
                                         <h3>Frank Schiffner</h3>

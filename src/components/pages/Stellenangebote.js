@@ -33,7 +33,7 @@ export default function Stellenangebote() {
 
           {/* Bild 1 */}
           <div className="row mb-5 mt-5" data-aos="fade-up" data-aos-duration={1500}>
-            <div className="col-12 text-right">
+            <div className="col-12 text-md-right text-xs-center">
               <img src={BildKöche} alt="Chefkoch und Azubis" className="img-fluid smaller_image radius_img" style={{ maxHeight: '540px' }} />
             </div>
           </div>
@@ -61,7 +61,7 @@ export default function Stellenangebote() {
 
           {/* Bild 2 */}
           <div className="row mb-5" data-aos="fade-up" data-aos-duration={1500}>
-            <div className="col-12 text-right">
+            <div className="col-12 text-md-right text-xs-center">
               <img src={BildSpeisen} alt="Dinner" className="img-fluid smaller_image radius_img" style={{ maxHeight: '540px' }} />
             </div>
           </div>

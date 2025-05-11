@@ -70,9 +70,9 @@
   --primary-red: #c83f46;
   --text-grey: #9a9a9a;
   --black: #000000;
-  --border-grey: #696969;
+  --border-grey: rgb(80, 140, 103);;
   --blog-bg: #222222;
-  --img-border: 5px solid #696969;
+  --img-border: 5px solid rgb(80, 140, 103);;
   --font-bebas: "Libre Baskerville", "Libre Baskerville";
   --font-playball: "Libre Baskerville", "Libre Baskerville";
 }
@@ -4610,6 +4610,7 @@ iframe#youtubevideo {
   height: 370px;
   object-fit: cover;
   width: 320px;
+  border: 2px solid rgb(80, 140, 103);
 }
 .gallery_direction_right .gallery_slider .offer_menu .slick-slide img {
   border-radius: 20px;

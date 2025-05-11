@@ -83,7 +83,7 @@ function PopularDish() {
               </div>
             </Slider>
           </div>
-          <div className="text-center mb-md-4">                
+          <div className="text-center">                
             <Link to="https://cdn.shopify.com/s/files/1/0756/4568/2002/files/HuG_Karte-7_2.pdf?v=1740935225" className="btn btn_primary">
               Speisekarte
             </Link>

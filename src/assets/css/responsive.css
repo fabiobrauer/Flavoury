@@ -5,7 +5,7 @@
     --primary-red: #c83f46;
     --text-grey: #9a9a9a;
     --black: #000000;
-    --border-grey: #696969;
+    --border-grey: rgb(80, 140, 103);;
     --blog-bg: #222222;
     --img-border: 5px solid rgb(80, 140, 103);
     --font-bebas: "Libre Baskerville", "Libre Baskerville";
@@ -22,6 +22,9 @@
 /* ------Media-Query-Start--------- */
 @media screen and (max-width:1600px) {
 
+    .erreichenSection{
+        max-width: 350px;
+    }
     .navbar {
         padding: 0 30px;
     }
@@ -409,7 +412,9 @@
     }
 
     .our_team_section .team_card .img {
-        height: 300px;
+        height: 500px;
+/*         display: flex;
+        justify-content: center; */
     }
 
     .blog_card_section .blog_card h3 {
@@ -419,6 +424,10 @@
 }
 
 @media screen and (max-width:992px) {
+
+        .erreichenSection{
+        max-width: none;
+    }
     .navbar-expand-lg .navbar-nav .has_dropdown .sub_menu ul li a {
         padding: 5px 10px;
         display: block;
@@ -931,7 +940,7 @@
                     }
 
     :root {
-        --img-border: 3px solid #696969;
+        --img-border: 3px solid rgb(80, 140, 103);;
     }
 
     .Kontakt_max_width{
@@ -1948,7 +1957,7 @@
     }
 
     .row_inner_am {
-        padding: 40px 0 50px 0;
+        padding: 80px 0 50px 0;
     }
 
     .resarvation_form {
@@ -1958,7 +1967,7 @@
     /* Dish list HERO */
 
     .popular_dish_section {
-        padding: 130px 0;
+        padding: 130px 0 0 0;
     }
 
 

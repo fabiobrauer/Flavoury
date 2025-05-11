@@ -16,16 +16,17 @@ function OekologischeLandwirtschaft() {
   }, []);
 
   return (
- <>
+ <>   
+<div className="index_wraper">
       <Helmet>
         <title>Ökologische Landwirtschaft Hof&Gut Jesteburg</title>
         <meta name="description" content="Alles über unsere Tiere und die Landwirtschaft" />
         <link rel="canonical" href="/ÖkologischeLandwirtschaft" />
         <meta name="fragment" content="!" />
       </Helmet>
-   <div className="index_wraper">
-                      <div className="row_inner_am who_we_section who_version_two light_texchur2">
-                        <div className="section_title text-center mb-5" data-aos="fade-up" data-aos-duration={1500}>
+
+      <div className="row_inner_am who_we_section who_version_two light_texchur2 mt-5">
+             <div className="section_title text-center " data-aos="fade-up" data-aos-duration={1500}>
                           <span className="sub_text">Hof & Gut Jesteburg</span>
                           <h2>Ökologische Landwirtschaft</h2>
                         </div>
@@ -35,7 +36,7 @@ function OekologischeLandwirtschaft() {
         <div className='row'>
           <div className='col-lg-6' data-aos="fade-up" data-aos-duration={1500}></div>
             <div className='col-md-12 col-lg-6  mb-5 mt-5' >
-                              <div className="row mb-5 ">
+                              <div className="row  ">
                                 <div className="col-12 text-center ">
                                   <img src={KueheImg} alt="Kühe" className="img-fluid smaller_image mt-4 rect_img" />
                                 </div>

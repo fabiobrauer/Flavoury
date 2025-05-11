@@ -118,8 +118,8 @@ export default function ContactPage() {
             data-aos="fade-up"
             data-aos-duration={1500}
           >
-            <div className="col-12 col-md-6 order-md-1">
-              <div style={{ maxWidth: "350px" }}>
+            <div className="col-xs-12 col-md-6 order-md-1">
+              <div className="erreichenSection">
                 <h3>So erreichst Sie uns:</h3>
                 <p>
                   Hof &amp; Gut Jesteburg GmbH bildet das Dach für die

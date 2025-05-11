@@ -177,7 +177,7 @@ function WhoWe() {
                     </Slider>
                 </div>
                 <div className="text-center" data-aos="fade-in" data-aos-duration={1500}>
-                    <Link to="/About" className="btn btn_primary">
+                    <Link to="/UeberUns" className="btn btn_primary">
                         Mehr über Uns
                     </Link>
                 </div>

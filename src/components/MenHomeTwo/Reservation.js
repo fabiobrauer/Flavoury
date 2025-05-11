@@ -9,7 +9,7 @@ function Reservation() {
                     <div className="form_inner" data-aos="fade-in" data-aos-duration={1500} data-aos-delay={150} >
                         <div className="formBlock">
                             <div className="text-center">
-                                <h2 className="mb-2">Online Reservation</h2>
+                                <h2 className="mb-2">Online Reservieren</h2>
                                 <p>
                                     Rufen Sie an unter <Link to="tel:+494181 9199500">+494181 9199500</Link> oder Reservieren Sie Online
                                 </p>
@@ -56,7 +56,7 @@ function Reservation() {
                                         </div>
                                     </div>
                                     <div className="col-md-12">
-                                        <button className="btn btn_primary w-100 ">book a table</button>
+                                        <button className="btn btn_primary w-100 ">Absenden</button>
                                     </div>
                                 </div>
                             </form>

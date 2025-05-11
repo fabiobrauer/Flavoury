@@ -46,19 +46,19 @@ function Main() {
                 
                 {/* Home Dropdown */}
                 <li className="nav-item has_dropdown">
-                  <Link className="nav-link" to="#" onClick={() => toggleDropdown('home')}>Home</Link>
+                  <Link className="nav-link" to="#" onClick={() => toggleDropdown('home')}>Start</Link>
                   <div className={`sub_menu ${openDropdowns['home'] ? 'open' : ''}`}>
                     <ul>
                       <li><Link to="/" onClick={handleMenuItemClick}>Startseite</Link></li>
-                      <li><Link to="/home2" onClick={handleMenuItemClick}>Home Slider Hero</Link></li>
-                      <li><Link to="/home3" onClick={handleMenuItemClick}>Home Dish List</Link></li>
+{/*                       <li><Link to="/home2" onClick={handleMenuItemClick}>Home Slider Hero</Link></li>
+                      <li><Link to="/home3" onClick={handleMenuItemClick}>Home Dish List</Link></li> */}
                     </ul>
                   </div>
                 </li>
 
                 {/* Restaurant & Unterkunft */}
                 <li className="nav-item has_dropdown">
-                  <Link className="nav-link" to="#" onClick={() => toggleDropdown('restaurant')}>Restaurant & Unterkunft</Link>
+                  <Link className="nav-link text-center" to="#" onClick={() => toggleDropdown('restaurant')}>Restaurant &<br/> Unterkunft</Link>
                   <div className={`sub_menu ${openDropdowns['restaurant'] ? 'open' : ''}`}>
                     <ul>
                       <li><Link to="/SpeisenAmHof" onClick={handleMenuItemClick}>Speisen am Hof</Link></li>
@@ -71,7 +71,7 @@ function Main() {
 
                 {/* Hof & Gut + Landwirtschaft */}
                 <li className="nav-item has_dropdown">
-                  <Link className="nav-link" to="#" onClick={() => toggleDropdown('hof')}>Hof & Gut & Landwirtschaft</Link>
+                  <Link className="nav-link text-center" to="#" onClick={() => toggleDropdown('hof')}>Hof & Gut <br/> Landwirtschaft</Link>
                   <div className={`sub_menu ${openDropdowns['hof'] ? 'open' : ''}`}>
                     <ul>
                       <li><Link to="/Hofladen" onClick={handleMenuItemClick}>Hofladen</Link></li>

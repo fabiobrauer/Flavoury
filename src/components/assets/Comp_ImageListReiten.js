@@ -2,33 +2,28 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
 import 'aos/dist/aos.css';
+import '../../assets/css/slick.css';
 
-import gallery1 from '../../assets/images/Reint5.jpeg';
-import gallery2 from '../../assets/images/Pferd.jpeg';
-import gallery3 from '../../assets/images/Adessa.jpeg';
-import gallery4 from '../../assets/images/reiten3 1.png';
-import gallery5 from '../../assets/images/folen.png';
 
-const Weslider = {
-  responsive: [
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 10,
-        speed: 1000,
-        easing: 'linear',
-      },
-    },
-    {
-      breakpoint: 1000,
-      settings: {
-        slidesToShow: 10,
-        speed: 1000,
-        easing: 'linear',
-      },
-    },
-  ],
-};
+import { Helmet } from "react-helmet-async";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
+
+
+
+import Slide1 from '../../assets/images/Reint5.jpg';
+import Slide2 from '../../assets/images/Pferd.jpg';
+import Slide3 from '../../assets/images/Adessa.jpg';
+import Slide4 from '../../assets/images/reiten3 1.png';
+import Slide5 from '../../assets/images/folen.jpg';
+import Slide6 from '../../assets/images/pfohlen.jpg';
+import Slide7 from '../../assets/images/ausblick.jpg';
+
+
 
 export default function ReitenCustomImageList() {
   return (
@@ -43,67 +38,55 @@ export default function ReitenCustomImageList() {
           </div>
         </div>
 
-        <div className="gallery_slider">
-          <Slider
-            className="Slider-Who"
-            id="gallery_flow_right"
-            data-aos="fade-in"
-            data-aos-duration={1500}
-            {...Weslider}
-            slidesToShow={11.5}
-            arrows={false}
-            autoplay={true}
-            autoplaySpeed={10000}
-            easing="linear"
-          >
-            <div className="item">
-              <div className="img">
-                <img src={gallery1} alt="Ponie Reiten" />
-              </div>
-            </div>
-            <div className="item">
-              <div className="img">
-                <img src={gallery2} alt="Pferd" />
-              </div>
-            </div>
-            <div className="item">
-              <div className="img">
-                <img src={gallery3} alt="Fohlen" />
-              </div>
-            </div>
-            <div className="item">
-              <div className="img">
-                <img src={gallery4} alt="Kind mit Ponie" />
-              </div>
-            </div>
-            <div className="item">
-              <div className="img">
-                <img src={gallery5} alt="Kind mit Ponie" />
-              </div>
-            </div>
-            <div className="item">
-              <div className="img">
-                <img src={gallery5} alt="Kind mit Ponie" />
-              </div>
-            </div>
-            <div className="item">
-              <div className="img">
-                <img src={gallery5} alt="Kind mit Ponie" />
-              </div>
-            </div>
-            {/* Du kannst hier beliebig oft durchrotieren */}
-            <div className="item">
-              <div className="img">
-                <img src={gallery1} alt="Ponie Reiten" />
-              </div>
-            </div>
-            <div className="item">
-              <div className="img">
-                <img src={gallery2} alt="Pferd" />
-              </div>
-            </div>
-          </Slider>
-        </div>
+    <div className='mt-5'>
+        <Swiper
+          effect={'coverflow'}
+          grabCursor={true}
+          centeredSlides={true}
+          loop={true}
+          slidesPerView={'auto'}
+          coverflowEffect={{
+            rotate: 0,
+            stretch: 0,
+            depth: 100,
+            modifier: 25.5,
+          }}
+          pagination={{ clickable: true }}
+          navigation={true}
+          modules={[EffectCoverflow, Pagination, Navigation]}
+          className="swiper_container text-center"
+        >
+          <SwiperSlide>
+            <a>
+            <img src={Slide1} alt="img" className='radius_img_hofladen smaller_image'/>
+            </a>
+          </SwiperSlide>
+          
+          <SwiperSlide>
+            <a >
+              <img src={Slide2} alt="img" className='radius_img_hofladen smaller_image'/>
+            </a>          
+          </SwiperSlide>
+          
+          <SwiperSlide>
+            <a>
+            <img src={Slide3} alt="img" className='radius_img_hofladen smaller_image'/>
+            </a>
+          </SwiperSlide>
+          
+          <SwiperSlide>
+          <img src={Slide4} alt="img" className='radius_img_hofladen smaller_image'/>
+          </SwiperSlide>
+          
+          <SwiperSlide>
+            <a>
+            <img src={Slide5} alt="img" className='radius_img_hofladen smaller_image'/>
+            </a>
+          </SwiperSlide>
+        </Swiper>
+      </div>
+
+
 
         <div className="text-center mt-4" data-aos="fade-in" data-aos-duration={1500}>
           <Link to="https://ponyreitschuleknot.wixsite.com/pony-club" className="btn btn_primary">

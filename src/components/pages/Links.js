@@ -19,7 +19,7 @@ export default function Links() {
         <meta name="fragment" content="!" />
       </Helmet>
 
-      <div className="who_we_section light_texchur2 mt-5">
+      <div className="who_we_section light_texchur2 mt-5 row_inner_am">
         <div className="container mt-5">
 
           {/* Titel */}

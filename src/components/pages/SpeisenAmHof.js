@@ -34,10 +34,10 @@ function Main() {
       </Helmet> 
         <PopularDish />
 
-        <MenuSection />
+{/*         <MenuSection /> */}
         <DiscountSection />       
         <WhoWe />
-        <OurTeam />
+{/*         <OurTeam /> */}
         <Reservation />
 {/* Instagram embed maybe         <Blog /> */}
         {/*         <div className='testom'>
