@@ -14,16 +14,32 @@ function Reservation() {
                                     Rufen Sie an unter <Link to="tel:+494181 9199500">+494181 9199500</Link> oder Reservieren Sie Online
                                 </p>
                             </div>
-                            <form netlify>
+                            <form netlify data-netlify="true"
+                                    name="reservation"
+                                    method="POST"
+                                    data-netlify-honeypot="bot-field"
+                                    className="reservation-form">
                                 <div className="row">
                                     <div className="col-md-6">
                                         <div className="form-group">
-                                            <input type="text" className="form-control" placeholder="Your Name" />
+                                            <input type="text" className="form-control" name="name" placeholder="Name" />
                                         </div>
                                     </div>
                                     <div className="col-md-6">
                                         <div className="form-group">
-                                            <input type="text" className="form-control" placeholder="Phone Number" />
+                                            {/* Hidden input für Netlify */}
+                                                <input type="hidden" name="form-name" value="reservation" />
+                                                {/* Honeypot-Feld – unsichtbar für Nutzer */}
+                                                <p className="hidden">
+                                                <label>
+                                                    Don’t fill this out: <input name="bot-field" />
+                                                </label>
+                                                </p>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6">
+                                        <div className="form-group">
+                                            <input type="text" className="form-control" name="phone" placeholder="Nummer" />
                                         </div>
                                     </div>
                                     <div className="col-md-6 col-lg-4">
@@ -31,7 +47,7 @@ function Reservation() {
                                             <span className="icon">
                                                 <i className="icofont-user-alt-7" />
                                             </span>
-                                            <input type="text" className="form-control has_icon" placeholder="1 Person" />
+                                            <input type="text" className="form-control has_icon" name="persons" placeholder="1 Person" />
                                         </div>
                                     </div>
                                     <div className="col-md-4">
@@ -39,7 +55,7 @@ function Reservation() {
                                             <span className="icon">
                                                 <i className="icofont-calendar" />
                                             </span>
-                                            <input type="date" className="form-control  flex-row-reverse" />
+                                            <input type="date" name="date" className="form-control flex-row-reverse" />
                                         </div>
                                     </div>
                                     <div className="col-md-4">
@@ -47,12 +63,12 @@ function Reservation() {
                                             <span className="icon">
                                                 <i className="icofont-clock-time" />
                                             </span>
-                                            <input type="time" className="form-control has_icon  flex-row-reverse pl-0" />
+                                            <input type="time" name="time" className="form-control has_icon  flex-row-reverse pl-0" />
                                         </div>
                                     </div>
                                     <div className="col-md-12">
                                         <div className="form-group">
-                                            <textarea className="form-control" placeholder="Message" defaultValue={""} />
+                                            <textarea className="form-control" placeholder="Nachricht" defaultValue={""} />
                                         </div>
                                     </div>
                                     <div className="col-md-12">
@@ -62,7 +78,7 @@ function Reservation() {
                             </form>
                         </div>
                         <div className="contact_block">
-                            <h2>Schreiben sie Uns</h2>
+                            <h3>Schreiben sie Uns</h3>
                             <div className="booking">
                                 <h3>Tisch Buchen</h3>
                                 <Link to="tel:+494181 9199500">+494181 9199500</Link>

@@ -27,7 +27,33 @@
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
+  <div id="root">
+    <form 
+    name="reservation" 
+    method="POST" 
+    data-netlify="true" 
+    data-netlify-honeypot="bot-field" 
+    hidden
+  >
+    <!-- Formular-Name für Netlify -->
+    <input type="hidden" name="form-name" value="reservation" />
+    <!-- Honeypot gegen Spam -->
+    <p class="hidden">
+      <label>Don’t fill this out if you're human: 
+        <input name="bot-field" />
+      </label>
+    </p>
+
+    <!-- Die gleichen input-Namen wie in React -->
+    <input type="text" name="name" />
+    <input type="tel"  name="phone" />
+    <input type="number" name="persons" />
+    <input type="date" name="date" />
+    <input type="time" name="time" />
+    <textarea name="message"></textarea>
+  </form>
+
+  </div>
 
 </body>
 
