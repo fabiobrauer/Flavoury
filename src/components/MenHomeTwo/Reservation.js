@@ -25,7 +25,7 @@ function Reservation() {
                                             <input type="text" className="form-control" name="name" placeholder="Name" />
                                         </div>
                                     </div>
-                                    <div className="col-md-6">
+                                    <div className="col-md-6 honeypot">
                                         <div className="form-group">
                                             {/* Hidden input für Netlify */}
                                                 <input type="hidden" name="form-name" value="reservation" />

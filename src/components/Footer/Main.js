@@ -110,6 +110,18 @@ function Main() {
                           <input type="text" name="phone" className="form-control" placeholder="Nummer" />
                         </div>
                       </div>
+                          <div className="col-md-6 honeypot">
+                                        <div className="form-group">
+                                            {/* Hidden input für Netlify */}
+                                                <input type="hidden" name="form-name" value="reservation" />
+                                                {/* Honeypot-Feld – unsichtbar für Nutzer */}
+                                                <p className="hidden">
+                                                <label>
+                                                    Don’t fill this out: <input name="bot-field" />
+                                                </label>
+                                                </p>
+                                        </div>
+                                    </div>
                       <div className="col-md-4">
                         <div className="form-group">
                           <span className="icon">

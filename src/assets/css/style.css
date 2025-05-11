@@ -2384,6 +2384,9 @@ iframe#youtubevideo {
 .icofont-close-line{
   color: white;
 }
+.honeypot{
+  opacity: 0;
+}
 
 #lightbox {
   display: flex;
