@@ -58,7 +58,7 @@ function Main() {
 
                 {/* Restaurant & Unterkunft */}
                 <li className="nav-item has_dropdown">
-                  <Link className="nav-link text-center" to="#" onClick={() => toggleDropdown('restaurant')}>Restaurant &<br/> Unterkunft</Link>
+                  <Link className="nav-link text-md-center text-left" to="#" onClick={() => toggleDropdown('restaurant')}>Restaurant &<br/> Unterkunft</Link>
                   <div className={`sub_menu ${openDropdowns['restaurant'] ? 'open' : ''}`}>
                     <ul>
                       <li><Link to="/SpeisenAmHof" onClick={handleMenuItemClick}>Speisen am Hof</Link></li>
@@ -71,7 +71,7 @@ function Main() {
 
                 {/* Hof & Gut + Landwirtschaft */}
                 <li className="nav-item has_dropdown">
-                  <Link className="nav-link text-center" to="#" onClick={() => toggleDropdown('hof')}>Hof & Gut <br/> Landwirtschaft</Link>
+                  <Link className="nav-link text-md-center text-left" to="#" onClick={() => toggleDropdown('hof')}>Hof & Gut <br/>& Landwirtschaft</Link>
                   <div className={`sub_menu ${openDropdowns['hof'] ? 'open' : ''}`}>
                     <ul>
                       <li><Link to="/Hofladen" onClick={handleMenuItemClick}>Hofladen</Link></li>
