@@ -94,7 +94,11 @@ function Main() {
               </div>
               <div className="modal-body">
                 <div className="booking_form">
-                  <form>
+                  <form netlify data-netlify="true"
+                                    name="reservation"
+                                    method="POST"
+                                    data-netlify-honeypot="bot-field"
+                                    className="reservation-form">
                     <div className="row">
                       <div className="col-md-6">
                         <div className="form-group">
