@@ -117,7 +117,18 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
-
+.slick-next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 10;
+}
+.slick-prev{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 10;
+}
 
 .Slider-track{
     transition: all 4s linear 0s;

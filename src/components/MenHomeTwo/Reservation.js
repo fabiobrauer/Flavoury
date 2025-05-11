@@ -14,7 +14,7 @@ function Reservation() {
                                     Rufen Sie an unter <Link to="tel:+494181 9199500">+494181 9199500</Link> oder Reservieren Sie Online
                                 </p>
                             </div>
-                            <form>
+                            <form netlify>
                                 <div className="row">
                                     <div className="col-md-6">
                                         <div className="form-group">

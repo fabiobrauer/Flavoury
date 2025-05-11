@@ -40,7 +40,7 @@ function PopularDish() {
             <h1>Speisen am Hof</h1>
           </div>
           <div id="popular_dish" className="dishList_slider" data-aos="fade-in" data-aos-duration={1500} >
-            <Slider className="Slider-dishes" {...Popular} slidesToShow={4} arrows={false} margin={15} autoplay={true} autoplaySpeed={1000}>
+            <Slider className="Slider-dishes" {...Popular} slidesToShow={3} arrows={false} margin={15} autoplay={true} autoplaySpeed={10000}>
               <div className="item">
                 <div className="dish_card">
                   <div className="img">
@@ -84,7 +84,7 @@ function PopularDish() {
             </Slider>
           </div>
           <div className="text-center">                
-            <Link to="https://cdn.shopify.com/s/files/1/0756/4568/2002/files/HuG_Karte-7_2.pdf?v=1740935225" className="btn btn_primary">
+            <Link to="https://cdn.shopify.com/s/files/1/0756/4568/2002/files/pdf24_zusammengefuegt-4.pdf?v=1745146142" className="btn btn_primary">
               Speisekarte
             </Link>
           </div>
