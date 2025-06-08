@@ -45,16 +45,17 @@ function Main() {
               <ul className="navbar-nav ml-auto">
                 
                 {/* Home Dropdown */}
-                <li className="nav-item has_dropdown">
+                <li><Link to="/" className="nav-link" onClick={handleMenuItemClick}>Startseite</Link></li>
+{/*                 <li className="nav-item has_dropdown">
                   <Link className="nav-link" to="#" onClick={() => toggleDropdown('home')}>Start</Link>
                   <div className={`sub_menu ${openDropdowns['home'] ? 'open' : ''}`}>
                     <ul>
-                      <li><Link to="/" onClick={handleMenuItemClick}>Startseite</Link></li>
+                      <li><Link to="/" onClick={handleMenuItemClick}>Startseite</Link></li> */}
 {/*                       <li><Link to="/home2" onClick={handleMenuItemClick}>Home Slider Hero</Link></li>
                       <li><Link to="/home3" onClick={handleMenuItemClick}>Home Dish List</Link></li> */}
-                    </ul>
+{/*                     </ul>
                   </div>
-                </li>
+                </li> */}
 
                 {/* Restaurant & Unterkunft */}
                 <li className="nav-item has_dropdown">
@@ -91,10 +92,13 @@ function Main() {
                 </li>
 
                 {/* Buchung */}
-                <li className="nav-item">
-                  <Link className="nav-link btn btn_primary" to="/Kontakt" onClick={handleMenuItemClick}>
-                    Tisch Reservieren
-                  </Link>
+                <li>
+                  <a
+                  href="//app.resmio.com/hof-gut-jesteburg/widget?from_button=true&amp;source=hof-und-gut-jesteburg.com&amp;comment=&amp;utm_source=button&amp;resourceGroup=&amp;resourceGroupName=&amp;source=&amp;date=&amp;height=400&amp;width=275&amp;fontSize=14px&amp;backgroundColor=%23ffffff&amp;color=%23555555&amp;linkBackgroundColor=%23c83f46&amp;facebookLogin=true&amp;newsletterSignup=true"
+                  className="btn btn_primary"
+                >
+                  <strong>Tisch reservieren</strong>
+                </a>
                 </li>
 
               </ul>

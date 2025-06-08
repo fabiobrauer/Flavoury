@@ -61,7 +61,60 @@ function WhoWeZimmer() {
                     </h2>
                     </div>
                 </div>
-                <div className="gallery_slider">
+
+        <div className="mb-4 mt-5 p-4 border-0 container">
+            <div className='row mb-5'>
+                <div className='col-xs-12 col-md-6'>
+                        <h2>Preise</h2>
+                        <p>
+                            DZ 110 € | EZ 95 € | Apartment für 2 Personen 150 € | Apartment für 3 Personen 175 € | Apartment für 4 Personen 200 € | Zustellbett für ein Kind 25 €
+                        </p>
+                        <h2>Hof-Frühstück</h2>
+                        <p>
+                            Das Frühstück wird für unsere Hausgäste von 8 – 10:00 Uhr serviert.
+                            <br />
+                            Frühstück: 14.50 € p. P | Kinderfrühstück (3 – 7 Jahre) 8,00 € p.P.
+                        </p>
+                        <p>
+                        Alle Zimmer sind mit einem Fernseher ausgestattet, aber noch schöner ist der Blick aus dem Fenster!
+                        Internetzugang über Hotspot ist kostenlos verfügbar.
+                    </p>
+                    <p>
+                        Anreise täglich ab 16 Uhr, am Wochenende ab 14 Uhr möglich. Bei früher oder später Anreise nach 22 Uhr bitte anrufen:
+                        <br />
+                        <a href='tel:04181 9199500'>04181 9199500</a> oder <a href='tel:0176 070671532'>0176 070671532</a>
+                    </p>
+                    <p>
+                    Das Team von Hof & Gut wünscht eine geruhsame Nacht unterm Reetdach und ländliche Träume!
+                    <br />
+                    <b>Reservierungen per E-Mail an:</b>{" "}
+                    <a href="mailto:info@hof-und-gut.de" className="text-primary-red">info@hof-und-gut.de</a>
+                </p>
+                </div>
+                <div className='col-xs-12 col-md-6'>
+                    <img src={gallery9} alt="img" className='smaller_image rect_img img-fluid'/>
+                </div>
+                    </div>
+            <div className="container mb-5">
+                    <div className="section_title text-center" data-aos="fade2-up" data-aos-duration={1500} >
+                    <span className="sub_text">Unsere Ferienwohnung</span>
+                    <h2>
+                        Fühlen Sie sich wie Zuhause
+                    </h2>
+                    </div>
+            </div>
+                <div className="img mb-5 d-flex justify-content-center">
+                    <img src={gallery14} className="img-fluid" alt="img" />
+                </div>
+
+                </div>
+                   <div className="section_title text-center" data-aos="fade2-up" data-aos-duration={1500} >
+                    <span className="sub_text">Weitere Bilder</span>
+                    <h2>
+                        Unsere Zimmer
+                    </h2>
+                    </div>
+                                <div className="gallery_slider">
                     <Slider className="Slider-Who" id="gallery_flow_right" data-aos="fade-in" data-aos-duration={1500} {...Weslider} slidesToShow={11.5} arrows={false} autoplay={true} autoplaySpeed={10000} easing='linear'>
                         <div className="item">
                             <div className="img">
@@ -249,63 +302,6 @@ function WhoWeZimmer() {
                         </div>
                     </Slider>
                 </div>
-        <div className="mb-4 p-4 border-0 container">
-            <div className='row'>            
-                <div className='col-xs-12 col-md-6'>          
-                        <p>
-                        Alle Zimmer sind mit einem Fernseher ausgestattet, aber noch schöner ist der Blick aus dem Fenster!
-                        Internetzugang über Hotspot ist kostenlos verfügbar.
-                    </p>
-                    <p>
-                        Anreise täglich ab 16 Uhr, am Wochenende ab 14 Uhr möglich. Bei früher oder später Anreise nach 22 Uhr bitte anrufen:
-                        <br />
-                        <a href='tel:04181 9199500'>04181 9199500</a> oder <a href='tel:0176 070671532'>0176 070671532</a>
-                    </p>
-                    <p>
-                    Das Team von Hof & Gut wünscht eine geruhsame Nacht unterm Reetdach und ländliche Träume!
-                    <br />
-                    <b>Reservierungen per E-Mail an:</b>{" "}
-                    <a href="mailto:info@hof-und-gut.de" className="text-primary-red">info@hof-und-gut.de</a>
-                </p>
-                </div>
-                <div className='col-xs-12 col-md-6'>
-
-                </div>
-            </div>
-            <div className="container mb-5">
-                    <div className="section_title text-center" data-aos="fade2-up" data-aos-duration={1500} >
-                    <span className="sub_text">Unsere Ferienwohnung</span>
-                    <h2>
-                        Fühlen Sie sich wie Zuhause
-                    </h2>
-                    </div>
-            </div>
-                <div className="img mb-5">
-                    <img src={gallery14} className="img-fluid" alt="img" />
-                </div>
-            <div className='row'>
-                <div className='col-xs-12 col-md-6'>
-                        <h2>Preise</h2>
-                        <p>
-                            DZ 110 € | EZ 95 € | Apartment für 2 Personen 150 € | Apartment für 3 Personen 175 € | Apartment für 4 Personen 200 € | Zustellbett für ein Kind 25 €
-                        </p>
-                        <h2>Hof-Frühstück</h2>
-                        <p>
-                            Das Frühstück wird für unsere Hausgäste von 8 – 10:00 Uhr serviert.
-                            <br />
-                            Frühstück: 14.50 € p. P | Kinderfrühstück (3 – 7 Jahre) 8,00 € p.P.
-                        </p>
-                </div>
-                <div className='col-xs-12 col-md-6'>
-
-            <img src={gallery9} alt="img" className='smaller_image rect_img'/>
-                </div>
-            </div>
-
-
-
-
-        </div>
             </div>
         </>
     )

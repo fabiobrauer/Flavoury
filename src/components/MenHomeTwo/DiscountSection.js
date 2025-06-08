@@ -8,14 +8,13 @@ import DishImg03 from '../../assets/images/Vorspeiseplatte.jpeg'
 function DiscountSection() {
     return (
         <>
-            <section className="discount_section bg_white_textcher row_inner_am">
+            <section className="discount_section bg_white_textcher row_inner_am Discount_Section">
                 <div className="container">
-                    <div className="section_title text-center"             data-aos="fade-up"
-            data-aos-duration={1500}>
+                    <div className="section_title text-center" data-aos="fade-up" data-aos-duration={1500}>
                         <span className="sub_text">Buchen Sie unser Abiente</span>
                         <h2>Sie können auch auf unserer Diele mit bis zu 75 Personen in attraktiven historischem Ambiente feiern und tagen.</h2>
                     </div>
-                    <div className="dish_slides">
+                    <div className="dish_slides mt-5 pt-5">
                         <div className="dishMain" data-30-top="position: sticky;" style={{ top: 230, position: "sticky" }}>
                             <div className="dish_block">
                                 <div className="dish_text">

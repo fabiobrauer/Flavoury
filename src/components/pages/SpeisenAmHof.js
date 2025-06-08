@@ -38,7 +38,7 @@ function Main() {
         <DiscountSection />       
         <WhoWe />
 {/*         <OurTeam /> */}
-        <Reservation />
+{/*         <Reservation /> */}
       {/*  <Blog />  */}
        <div className='testom'>
         <Testimonial />

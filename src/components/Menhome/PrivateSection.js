@@ -8,18 +8,26 @@ function PrivateSection() {
   return (
     <>
       <section className="row_am privet_event_section bg_white_textcher position-relative">
-        <div className="container">
-          <div className="row py_50">
-            <div className="col-md-6">
-              <div className="privet_text" data-aos="fade-up" data-aos-duration={1500} >
-                <div className="section_title">
+              <div className="section_title text-center">
                   <span className="sub_text">Private events</span>
                   <h2>
                     Buchen Sie unser Ambiente für Ihre Feier
                   </h2>
                 </div>
-                <img className="d-block ml-auto" src={Img02} alt="img"
-                />
+        <div className="container">
+          <div className="row py_50">
+            <div className="col-md-6">
+              <div className="privet_text " data-aos="fade-up" data-aos-duration={1500} >
+                
+                  <img className="d-block mr-auto" src={Img02} alt="img"/>
+                <div className='p-5'>
+                  <p data-aos="fade-up" data-aos-duration={1500}>
+                    Bitte reservieren Sie rechtzeitig einen Tisch, besonders wenn Sie am Wochenende oder zum Abendessen kommen möchten… Sie können auch auf unserer Diele mit bis zu 75 Personen in attraktiv sanierter historischer Umgebung feiern und tagen. Wir besprechen gerne Anlass und passende Gerichte und Getränke.
+                </p>
+                <Link to="/kontakt" className="btn btn_primary" data-aos="fade-up" data-aos-duration={1500} >
+                  Jetzt Buchen <i className="icofont-long-arrow-right" />
+                </Link>
+                </div>
               </div>
             </div>
             <div className="col-md-6">
@@ -30,12 +38,7 @@ function PrivateSection() {
                   </span>
                   <img className="img-fluid radius_img" src={Img04} alt="img" />
                 </div>
-                <p data-aos="fade-up" data-aos-duration={1500}>
-                    Bitte reservieren Sie rechtzeitig einen Tisch, besonders wenn Sie am Wochenende oder zum Abendessen kommen möchten… Sie können auch auf unserer Diele mit bis zu 75 Personen in attraktiv sanierter historischer Umgebung feiern und tagen. Wir besprechen gerne Anlass und passende Gerichte und Getränke.
-                </p>
-                <Link to="/kontakt" className="btn btn_primary" data-aos="fade-up" data-aos-duration={1500} >
-                  Jetzt Buchen <i className="icofont-long-arrow-right" />
-                </Link>
+
               </div>
             </div>
           </div>

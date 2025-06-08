@@ -14,7 +14,7 @@ function Banner() {
     <>
       <section className="banner_section">
         <div className="container">
-          <div className="banner_inner">
+          <div className="banner_inner ">
             <h1 data-aos="fade-up" data-aos-duration={1500}>
               Willkommen bei<br /> Hof&Gut Jesteburg
             </h1>
@@ -31,7 +31,7 @@ function Banner() {
               
               <div className='container'>
                 <div className='row'>
-                  <div className="img_mobile disable_mobile" data-speed={100}>
+                  <div className="img_mobile disable_mobile mx-auto" data-speed={100}>
                     <img src={img11} alt="img" className='img-fluid' />
                   </div>
                 </div>  

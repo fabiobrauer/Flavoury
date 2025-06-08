@@ -26,9 +26,12 @@ function Main() {
                   Mo - Fr : 17 - 22 Uhr <br />
                   Sa - So : 12 - 22 Uhr
                 </p>
-                <Link to="/" className="btn btn_primary mt-3" id="bookingForm_modelTitle" data-toggle="modal" data-target="#bookingForm_model" onClick={() => setytShow(true)}>
-                  einen Tisch Buchen
-                </Link>
+                <a
+                  href="//app.resmio.com/hof-gut-jesteburg/widget?from_button=true&amp;source=hof-und-gut-jesteburg.com&amp;comment=&amp;utm_source=button&amp;resourceGroup=&amp;resourceGroupName=&amp;source=&amp;date=&amp;height=400&amp;width=275&amp;fontSize=14px&amp;backgroundColor=%23ffffff&amp;color=%23555555&amp;linkBackgroundColor=%23c83f46&amp;facebookLogin=true&amp;newsletterSignup=true"
+                  className="btn btn_primary"
+                >
+                  <strong>Jetzt reservieren</strong>
+                </a>
               </div>
             </div>
           </div>

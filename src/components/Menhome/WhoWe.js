@@ -46,7 +46,7 @@ function WhoWe() {
 {/*               <img src={WeIcon} alt="img" /> */}
             </div>
             <div className="text">
-              <span className="sub_text">Über uns</span>
+              <span className="sub_text text-center">Über uns</span>
               <h2>
                 Genießen Sie die idyllische Landatmosphäre und lassen Sie sich von uns verwöhnen.
               </h2>
@@ -54,7 +54,7 @@ function WhoWe() {
           </div>
           <div className="row row_am">
             <div className="col-md-6">
-              <div className="img" data-aos="fade-up" data-aos-duration={1500}>
+              <div className="img d-flex justify-content-center" data-aos="fade-up" data-aos-duration={1500}>
                 <img className="img-fluid radius_img" src={Weimg} alt="img" />
               </div>
             </div>

@@ -91,7 +91,7 @@ export default function Hofladen() {
                 className="img-fluid rect_img"
               />
             </div>
-            <div className="col-12 col-md-4 order-md-1 text-right">
+            <div className="col-12 col-md-4 order-md-1 text-lg-right">
               <p>
                 <strong>Interesse?</strong> Schreiben Sie uns:
                 <br />

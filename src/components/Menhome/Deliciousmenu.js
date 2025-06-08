@@ -43,7 +43,7 @@ function Deliciousmenu() {
             <div className="menu_listing_block" data-aos="fade-up" data-aos-duration={1500} >
               <div className="d-flex flex-column align-items-center">
 
-                  <h3 className="makeLinkWhite text-center mb-4"><a href="https://cdn.shopify.com/s/files/1/0756/4568/2002/files/HuG_Karte-6.pdf?v=1735919750">Speisekarte</a></h3>
+                  <h3 className="makeLinkWhite text-center mb-4"><a href="https://cdn.shopify.com/s/files/1/0756/4568/2002/files/pdf24_zusammengefuegt-4.pdf?v=1745146142">Speisekarte</a></h3>
 
 {/* Slider falls ich den mal brauche
 
@@ -113,8 +113,8 @@ function Deliciousmenu() {
             </div>
           </div>
         </div>
-          <div className="video_wrapper container">
-              <img src={BG} alt="GIF" className='img-fluid' />
+          <div className="video_wrapper d-flex justify-content-center">
+              <img src={BG} alt="GIF" className='img-fluid'/>
           </div>
       </section>
 

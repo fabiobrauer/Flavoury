@@ -38,7 +38,7 @@ function WhoWe() {
 
     return (
         <>
-            <div className="row_inner_am who_we_section who_version_two light_texchur">
+            <div className="row_inner_am who_we_section who_version_two light_texchur mb-5">
                 <div className="container">
                     <div className="section_title text-center" data-aos="fade-up" data-aos-duration={1500} >
                         <div className="icon">
