@@ -30,11 +30,13 @@ import UebernachtenAmHof from '../components/pages/ÜbernachtenAmHof';
 import UeberUns from '../components/pages/ÜberUns';
 import Header from '../../src/components/Header/Main'
 import Footer from '../../src/components/Footer/Main'
+import ScrollToTop from "../../src/components/ScrollTop/scrollTop";
 
 function Index() {
   return (
     <>
           <Header/>
+      <ScrollToTop />    
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home2" element={<HomeTwo />} />
