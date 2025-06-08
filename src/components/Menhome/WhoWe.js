@@ -1,16 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Slider from 'react-slick';
-import Weimg from '../../assets/images/who_we.png'
-import Wechef from '../../assets/images/who_chef.png'
+import Weimg from '../../assets/images/who_we.jpg'
+import Wechef from '../../assets/images/who_chef.jpg'
 import gallery01 from '../../assets/images/ProduktBild-103.jpg'
-import gallery02 from '../../assets/images/ProduktBild-104.png'
-import gallery03 from '../../assets/images/ProduktBild-105.png'
-import gallery04 from '../../assets/images/ProduktBild-106.png'
-import gallery05 from '../../assets/images/ProduktBild-107.png'
-import gallery06 from '../../assets/images/ProduktBild-108.png'
-import gallery07 from '../../assets/images/ProduktBild-109.png'
-import gallery08 from '../../assets/images/ProduktBild-110.png'
+import gallery02 from '../../assets/images/ProduktBild-104.jpg'
+import gallery03 from '../../assets/images/ProduktBild-105.jpg'
+import gallery04 from '../../assets/images/ProduktBild-106-2.jpg'
+import gallery05 from '../../assets/images/ProduktBild-107.jpg'
+import gallery06 from '../../assets/images/ProduktBild-108.jpg'
+import gallery07 from '../../assets/images/ProduktBild-109-2.jpg'
+import gallery08 from '../../assets/images/ProduktBild-110.jpg'
 
 const Whoslider = {
   infinite: true,

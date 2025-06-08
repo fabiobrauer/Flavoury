@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import React, { useState } from "react";
 import Slider from 'react-slick';
-import BG from '../../assets/images/BannerGifNeu.gif'
+import BG from '../../assets/images/BannerGifNeu.webm'
 import icon01 from '../../assets/images/title_icon.png'
 
 const DeliciousMenu = {

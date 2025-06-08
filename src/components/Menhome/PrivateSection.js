@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Img02 from '../../assets/images/private_event_01.png'
+import Img02 from '../../assets/images/private_event_01.jpg'
 import Img03 from '../../assets/images/private_icon.png'
-import Img04 from '../../assets/images/private_event_02.png'
+import Img04 from '../../assets/images/private_event_02.jpg'
 
 function PrivateSection() {
   return (
