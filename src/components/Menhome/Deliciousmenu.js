@@ -76,7 +76,7 @@ function Deliciousmenu() {
                     </div>
                   </Slider>
                 </div> */}
-                <iframe src="https://cdn.shopify.com/s/files/1/0756/4568/2002/files/HuG_Karte-6.pdf?v=1735919750" width="90%" height="400"></iframe>
+                <iframe src="https://cdn.shopify.com/s/files/1/0756/4568/2002/files/pdf24_zusammengefuegt-4.pdf?v=1745146142" width="90%" height="400"></iframe>
               </div>
 {/*               <div className="hover_state">
                 <div className="menu_img">
