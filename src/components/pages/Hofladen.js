@@ -66,7 +66,7 @@ export default function Hofladen() {
                 Wir verkaufen regelmäßig Rindfleisch aus eigener Produktion in
                 10- oder 20-kg-Paketen (170 € bzw. 320 €). Enthalten sind Rouladen,
                 Hack, Braten, Gulasch, Suppenfleisch und Steaks. Außerdem können Sie
-                Weihnachtsgänse 2024 vorbestellen, solange der Vorrat reicht!
+                Weihnachtsgänse 2025 vorbestellen, solange der Vorrat reicht!
               </p>
             </div>
             <div className="col-12 col-md-6 order-md-1">

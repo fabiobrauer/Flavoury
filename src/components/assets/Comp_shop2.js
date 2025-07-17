@@ -53,29 +53,29 @@ export default function Comp_Swiper() {
         >
           <SwiperSlide>
             <a href="https://shop-hof-und-gut.de/collections/olivenol/products/olivenol">
-            <img src={Slide1} alt="img" className='radius_img_hofladen smaller_image'/>
+            <img src={Slide1} alt="img" className='radius_img_hofladen smaller_image img-fluid'/>
             </a>
           </SwiperSlide>
           
           <SwiperSlide>
             <a href="https://shop-hof-und-gut.de/collections/olivenol/products/olivenol">
-              <img src={Slide2} alt="img" className='radius_img_hofladen smaller_image'/>
+              <img src={Slide2} alt="img" className='radius_img_hofladen smaller_image img-fluid'/>
             </a>          
           </SwiperSlide>
           
           <SwiperSlide>
             <a href="https://shop-hof-und-gut.de/products/bulgarini-lugana">
-            <img src={Slide3} alt="img" className='radius_img_hofladen smaller_image'/>
+            <img src={Slide3} alt="img" className='radius_img_hofladen smaller_image img-fluid'/>
             </a>
           </SwiperSlide>
           
           <SwiperSlide>
-          <img src={Slide4} alt="img" className='radius_img_hofladen smaller_image'/>
+          <img src={Slide4} alt="img" className='radius_img_hofladen smaller_image img-fluid'/>
           </SwiperSlide>
           
           <SwiperSlide>
             <a href="https://shop-hof-und-gut.de/collections/weine/products/fabelhaft">
-            <img src={Slide5} alt="img" className='radius_img_hofladen smaller_image'/>
+            <img src={Slide5} alt="img" className='radius_img_hofladen smaller_image img-fluid'/>
             </a>
           </SwiperSlide>
         </Swiper>
