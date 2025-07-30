@@ -175,6 +175,10 @@ button:focus,
   background-position: center;
   background-attachment: fixed;
 }
+
+
+
+
 /* move image */
 .move_left{
   transform: translateX(-200px);

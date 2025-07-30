@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Slider from 'react-slick';
 import BG from '../../assets/images/BannerGifNeu.mp4'
 import icon01 from '../../assets/images/title_icon.png'
+import PDFFlipBook from "../../components/assets/Comp_flipbook";
 
 const DeliciousMenu = {
   responsive: [
@@ -76,7 +77,7 @@ function Deliciousmenu() {
                     </div>
                   </Slider>
                 </div> */}
-                <iframe src="https://cdn.shopify.com/s/files/1/0756/4568/2002/files/pdf24_zusammengefuegt-4.pdf?v=1745146142" width="90%" height="400"></iframe>
+                <PDFFlipBook pdfUrl="https://cdn.shopify.com/s/files/1/0756/4568/2002/files/pdf24_zusammengefuegt-4.pdf?v=1745146142"/>
               </div>
 {/*               <div className="hover_state">
                 <div className="menu_img">
