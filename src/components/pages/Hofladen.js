@@ -37,7 +37,7 @@ export default function Hofladen() {
             <div className="col-12 col-md-6 order-md-1">
               <h3>Der Hofladen</h3>
               <p>
-                Unser kleiner Hofladen ist immer Dienstag abends und am Samstag von
+                Unser kleiner Hofladen ist immer am Samstag von
                 11–15 Uhr geöffnet. Es gibt Fleisch, Wurst und Grillgut vom Hof&Gut
                 Aubrac, Hühnchenfleisch und frische Salate vom Hof Warnke, saisonales
                 Gemüse und Bioeier von den Biohöfen Wurzelreich und Koch sowie eine
