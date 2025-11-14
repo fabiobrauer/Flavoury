@@ -4,6 +4,7 @@ import Slider from 'react-slick';
 import BG from '../../assets/images/BannerGifNeu.mp4'
 import icon01 from '../../assets/images/title_icon.png'
 import PDFFlipBook from "../../components/assets/Comp_flipbook";
+import Speisekarte from '../../assets/images/Speisekarte-2025-NOV-TEIL.pdf'
 
 const DeliciousMenu = {
   responsive: [
@@ -44,7 +45,7 @@ function Deliciousmenu() {
             <div className="menu_listing_block" data-aos="fade-up" data-aos-duration={1500} >
               <div className="d-flex flex-column align-items-center">
 
-                  <h3 className="makeLinkWhite text-center mb-4"><a href="https://cdn.shopify.com/s/files/1/0756/4568/2002/files/pdf24_zusammengefuegt-4.pdf?v=1745146142">Speisekarte</a></h3>
+                  <h3 className="makeLinkWhite text-center mb-4"><a href={Speisekarte}>Speisekarte</a></h3>
 
 {/* Slider falls ich den mal brauche
 
@@ -77,7 +78,7 @@ function Deliciousmenu() {
                     </div>
                   </Slider>
                 </div> */}
-                <PDFFlipBook pdfUrl="https://cdn.shopify.com/s/files/1/0756/4568/2002/files/pdf24_zusammengefuegt-4.pdf?v=1745146142"/>
+                <PDFFlipBook pdfUrl={Speisekarte}/>
               </div>
 {/*               <div className="hover_state">
                 <div className="menu_img">

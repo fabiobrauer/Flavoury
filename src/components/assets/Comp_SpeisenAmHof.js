@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Speisekarte from '../../assets/images/Speisekarte-2025-NOV-TEIL.pdf'
 export default function Comp_SpeisenAmHof() {
   return (
     <div style={{ marginTop: '15px' }}>
@@ -20,7 +20,7 @@ export default function Comp_SpeisenAmHof() {
             <br />
             <a href="tel:0176 70671532" style={{ color: 'white' }}>Tel mobil: 0176 70671532</a>
           </p>
-          <a href='https://cdn.shopify.com/s/files/1/0756/4568/2002/files/HuG_Karte-7_2.pdf?v=1740935225'>
+          <a href={Speisekarte}>
             <button style={{ padding: '10px 20px', marginTop: '10px', cursor: 'pointer' }}>Aktuelle Speisekarte</button>
           </a>
           <p style={{ fontSize: 'small' }}>Falls "Jetzt reservieren" nicht erscheint, bitte neu laden</p>
