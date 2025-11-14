@@ -78,14 +78,7 @@ function Deliciousmenu() {
                     </div>
                   </Slider>
                 </div> */}
-<<<<<<< HEAD
                 <PDFFlipBook pdfUrl={Speisekarte}/>
-=======
-                <PDFFlipBook pdfUrl="https://cdn.shopify.com/s/files/1/0756/4568/2002/files/Speisekarte-2025-AUG.pdf?v=1755463992"/>
-              </div>
-              <div className="text-center">
-              <button href="https://cdn.shopify.com/s/files/1/0756/4568/2002/files/Speisekarte-2025-AUG.pdf?v=1755463992" className="btn btn_primary m-3">Speisekarte downloaden</button>
->>>>>>> e1e1e7af389325cece5c905f21fb3d5ffde11c98
               </div>
 {/*               <div className="hover_state">
                 <div className="menu_img">
