@@ -84,7 +84,7 @@ function PopularDish() {
             </Slider>
           </div>
           <div className="text-center">                
-            <Link to="https://cdn.shopify.com/s/files/1/0756/4568/2002/files/pdf24_zusammengefuegt-4.pdf?v=1745146142" className="btn btn_primary">
+            <Link to="https://cdn.shopify.com/s/files/1/0756/4568/2002/files/Speisekarte-2025-AUG.pdf?v=1755463992" className="btn btn_primary">
               Speisekarte
             </Link>
           </div>
